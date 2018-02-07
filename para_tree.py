@@ -18,6 +18,17 @@ class Paragraph(object):
         self.para_content = para_content
 
 
+    def cut_para_to_sents(self):
+        sents_raw = self.para_content.split('.')
+
+        sents_handled = list()
+        for i in sents_raw:
+            if i != '' and i != '\n':
+                sent = i.strip('\n').strip().replace('\n', ' ')
+                sents_handled.append(sent)
+        return sents_handled
+
+
     def tree(self):
 
         def keywords(sent):
@@ -30,9 +41,11 @@ class Paragraph(object):
             return keywords
 
         def find_key_by_value(dic, val):
+            key_list = []
             for key, value in dic.items():
                 if value == val:
-                    return key
+                    key_list.append(key)
+            return key_list
 
         def isin(item, li):
             for i in li:
@@ -46,14 +59,18 @@ class Paragraph(object):
                 values.append(dic[i])
             return values
 
+        def cut_para_to_sents():
+            sents_raw = self.para_content.split('.')
 
-        sents_raw = self.para_content.split('.')
+            sents_handled = list()
+            for i in sents_raw:
+                if i != '' and i != '\n':
+                    sent = i.strip('\n').strip().replace('\n', ' ')
+                    sents_handled.append(sent)
+            return sents_handled
 
-        sents_handled = list()
-        for i in sents_raw:
-            if i != '' and i != '\n':
-                sent = i.strip('\n').strip().replace('\n', ' ')
-                sents_handled.append(sent)
+
+        sents_handled = cut_para_to_sents()
 
         dic_sent = {}
         for i in range(len(sents_handled)):
@@ -72,26 +89,28 @@ class Paragraph(object):
 
         index = list(dic_weight.keys())
 
+        index_pop = list()
         for i in range(100):
-            if len(index) != 0:
-                weights = values_by_keys(dic_weight, index)
+            if len(index_pop) < len(index):
+                index_poped = [i for i in index if i not in index_pop]
+                # print(index_poped)
+
+                weights = values_by_keys(dic_weight, index_poped)
                 max_weight = max(weights)
                 max_index = find_key_by_value(dic_weight, max_weight)
 
-                level_1 = Node(dic_sent[max_index], parent=head)
-                index.pop(max_index)
+                for i in max_index:
+                    level_1 = Node(dic_sent[i], parent=head)
+                    index_pop.append(i)
 
-                index_pop = list()
-                for i in index:
+                for i in index_poped:
                     for j in range(len(dic_keywords[i])):
                         x = dic_keywords[i][j]
-                        y = dic_keywords[max_index]
+                        y = dic_keywords[max_index[-1]]
                         if isin(x,y):
                             level_2 =  Node(dic_sent[i], parent=level_1)
                             index_pop.append(i)
                             break
-
-                index = [x for x in index if x not in index_pop]
 
             else:
                 break
@@ -116,13 +135,13 @@ class Sentence(object):
         level = 2
         children = []
         for i in head_tree.children:
-            print(i.name)
-            print(self.sent_content)
+            # print(i.name)
+            # print(self.sent_content)
             if i.name == self.sent_content:
                 level = 1
                 children = i.children
                 break
-        children_list = []
+        children_list =  []
         if len(children) != 0:
             for i in children:
                 children_list.append(i.name)
@@ -136,27 +155,3 @@ class Sentence(object):
         return weight, level, children_list
 
 
-
-
-para = '''
- This paper presents the Averaged CVB (ACVB) inference and offers convergence-guaranteed and practically 
- useful fast Collapsed Variational Bayes (CVB) inferences.  CVB inferences yield more
-precise inferences of Bayesian probabilistic models than Variational Bayes (VB) inferences. How-
-ever, their convergence aspect is fairly unknown and has not been scrutinized. To make CVB more
-useful, we study their convergence behaviors in a empirical and practical approach.  We develop
-a convergence-guaranteed algorithm for any CVB-based inference called ACVB, which enables
-automatic convergence detection and frees non-expert practitioners from the difficult and costly
-manual monitoring of inference processe s.  In experiments, ACVB inferences are comparable to
-or better than those of existing inference methods and deterministic, fast, and provide easier con-
-vergence detection.  These features are especially convenient for  who want precise
-Bayesian inference with assured convergence.
-'''
-
-# sent = 'These features are especially convenient for  who want precise Bayesian inference with assured convergence'
-sent = 'We develop a convergence-guaranteed algorithm for any CVB-based inference called ACVB, which enables automatic convergence detection and frees non-expert practitioners from the difficult and costly manual monitoring of inference processe s'
-# sent = 'This paper presents the Averaged CVB (ACVB) inference and offers convergence-guaranteed and practically   useful fast Collapsed Variational Bayes (CVB) inferences'
-
-head = Paragraph(para_content = para).tree()[0]
-print(RenderTree(head))
-
-print(Sentence(para_content = para, sent_content = sent).attribute())
