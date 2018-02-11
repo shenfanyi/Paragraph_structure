@@ -11,6 +11,7 @@ import json
 from anytree import RenderTree
 
 
+### --- web crawling for abstract's urls: 4 different kinds, and using the 4th urls ---
 
 # urls = list()
 # for i in range(1,19):
@@ -52,6 +53,8 @@ from anytree import RenderTree
 #         f.write(url + '\n')
 
 
+
+### --- batch tree creating ---
 
 urls = open("url_4.txt").readlines()
 print(urls)

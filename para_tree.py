@@ -11,6 +11,8 @@ nlp = spacy.load('en')
 
 
 
+### --- paragraph tree creator ---
+
 class Paragraph(object):
 
 
@@ -119,6 +121,7 @@ class Paragraph(object):
 
 
 
+### --- sentence attributes creator ---
 
 class Sentence(object):
 
