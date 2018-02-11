@@ -1,0 +1,12 @@
+We consider the problem of improving the efficiency of
+randomized Fourier feature maps to accelerate training and
+testing speed of kernel methods on large data sets. These
+approximate feature maps arise as Monte Carlo approximations to
+integral representations of shift-invariant kernel functions
+(e.g., Gaussian kernel). In this paper, we propose to use  
+
+[10, 1, ["We consider the problem of improving the efficiency of randomized Fourier feature maps to accelerate training and testing speed of kernel methods on large data sets", "These approximate feature maps arise as Monte Carlo approximations to integral representations of shift-invariant kernel functions (e", ", Gaussian kernel)"]]
+[7, 2, []]
+[0, 2, []]
+[1, 2, []]
+[2, 1, ["In this paper, we propose to use"]]

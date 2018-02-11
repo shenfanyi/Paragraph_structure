@@ -1,0 +1,13 @@
+Symmetric positive semi-definite (SPSD) matrix approximation
+methods have been extensively used to speed up large-scale
+eigenvalue computation and kernel learning methods. The standard
+sketch based method, which we call the prototype model, produces
+relatively accurate approximations, but is inefficient on large
+square matrices. The Nyström method is highly efficient, but
+can only achieve low accuracy. In this paper we propose a novel
+model that we call the 
+
+[11, 1, ["Symmetric positive semi-definite (SPSD) matrix approximation methods have been extensively used to speed up large-scale eigenvalue computation and kernel learning methods"]]
+[6, 1, ["The standard sketch based method, which we call the prototype model, produces relatively accurate approximations, but is inefficient on large square matrices", "The Nystr\u00f6m method is highly efficient, but can only achieve low accuracy", "In this paper we propose a novel model that we call the"]]
+[2, 2, []]
+[2, 2, []]

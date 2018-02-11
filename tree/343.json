@@ -1,0 +1,30 @@
+The Hidden Markov Model (HMM) is one of the mainstays of
+statistical modeling of discrete time series, with applications
+including speech recognition, computational biology, computer
+vision and econometrics. Estimating an HMM from its observation
+process is often addressed via the Baum-Welch algorithm, which
+is known to be susceptible to local optima. In this paper, we
+first give a general characterization of the basin of attraction
+associated with any global optimum of the population likelihood.
+By exploiting this characterization, we provide non-asymptotic
+finite sample guarantees on the Baum-Welch updates and show
+geometric convergence to a small ball of radius on the order of
+the minimax rate around a global optimum. As a concrete example,
+we prove a linear rate of convergence for a hidden Markov
+mixture of two isotropic Gaussians given a suitable mean
+separation and an initialization within a ball of large radius
+around (one of) the true parameters. To our knowledge, these are
+the first rigorous local convergence guarantees to global optima
+for the Baum-Welch algorithm in a setting where the likelihood
+function is nonconvex. We complement our theoretical results
+with thorough numerical simulations studying the convergence of
+the Baum-Welch algorithm and illustrating the accuracy of our
+predictions.
+
+[11, 1, []]
+[4, 2, []]
+[7, 2, []]
+[11, 1, ["In this paper, we first give a general characterization of the basin of attraction associated with any global optimum of the population likelihood", "By exploiting this characterization, we provide non-asymptotic finite sample guarantees on the Baum-Welch updates and show geometric convergence to a small ball of radius on the order of the minimax rate around a global optimum", "As a concrete example, we prove a linear rate of convergence for a hidden Markov mixture of two isotropic Gaussians given a suitable mean separation and an initialization within a ball of large radius around (one of) the true parameters", "To our knowledge, these are the first rigorous local convergence guarantees to global optima for the Baum-Welch algorithm in a setting where the likelihood function is nonconvex", "We complement our theoretical results with thorough numerical simulations studying the convergence of the Baum-Welch algorithm and illustrating the accuracy of our predictions"]]
+[9, 2, []]
+[8, 2, []]
+[6, 2, []]

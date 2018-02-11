@@ -1,0 +1,16 @@
+We derive computationally tractable methods to select a small
+subset of experiment settings from a large pool of given design
+points. The primary focus is on linear regression models, while
+the technique extends to generalized linear models and Delta's
+method (estimating functions of linear regression models) as
+well. The algorithms are based on a continuous relaxation of an
+otherwise intractable combinatorial optimization problem, with
+sampling or greedy procedures as post-processing steps. Formal
+approximation guarantees are established for both algorithms,
+and numerical results on both synthetic and real-world data
+confirm the effectiveness of the proposed methods.
+
+[7, 2, []]
+[9, 1, ["The primary focus is on linear regression models, while the technique extends to generalized linear models and Delta's method (estimating functions of linear regression models) as well"]]
+[8, 1, []]
+[8, 1, ["We derive computationally tractable methods to select a small subset of experiment settings from a large pool of given design points", "The algorithms are based on a continuous relaxation of an otherwise intractable combinatorial optimization problem, with sampling or greedy procedures as post-processing steps", "Formal approximation guarantees are established for both algorithms, and numerical results on both synthetic and real-world data confirm the effectiveness of the proposed methods"]]

@@ -1,0 +1,14 @@
+We consider the submodular function minimization (SFM) and the
+quadratic minimization problems regularized by the Lovasz
+extension of the submodular function. These optimization
+problems are intimately related; for example, min-cut problems
+and total variation denoising problems, where the cut function
+is submodular and its Lovasz extension is given by the
+associated total variation. When a quadratic loss is regularized
+by the total variation of a cut function, it thus becomes a
+total variation denoising problem and we use the same
+terminology in this paper for 
+
+[6, 2, []]
+[11, 1, ["We consider the submodular function minimization (SFM) and the quadratic minimization problems regularized by the Lovasz extension of the submodular function", "These optimization problems are intimately related; for example, min-cut problems and total variation denoising problems, where the cut function is submodular and its Lovasz extension is given by the associated total variation", "When a quadratic loss is regularized by the total variation of a cut function, it thus becomes a total variation denoising problem and we use the same terminology in this paper for"]]
+[8, 2, []]

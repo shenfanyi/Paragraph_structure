@@ -1,0 +1,37 @@
+Graphical models express conditional independence relationships
+among variables. Although methods for vector-valued data are
+well established, functional data graphical models remain
+underdeveloped. By functional data, we refer to data that are
+realizations of random functions varying over a continuum (e.g.,
+images, signals). We introduce a notion of conditional
+independence between random functions, and construct a framework
+for Bayesian inference of undirected, decomposable graphs in the
+multivariate functional data context. This framework is based on
+extending Markov distributions and hyper Markov laws from random
+variables to random processes, providing a principled
+alternative to naive application of multivariate methods to
+discretized functional data. Markov properties facilitate the
+composition of likelihoods and priors according to the
+decomposition of a graph. Our focus is on Gaussian process
+graphical models using orthogonal basis expansions. We propose a
+hyper-inverse-Wishart-process prior for the covariance kernels
+of the infinite coefficient sequences of the basis expansion,
+and establish its existence and uniqueness. We also prove the
+strong hyper Markov property and the conjugacy of this prior
+under a finite rank condition of the prior kernel parameter.
+Stochastic search Markov chain Monte Carlo algorithms are
+developed for posterior inference, assessed through simulations,
+and applied to a study of brain activity and alcoholism.
+
+[4, 2, []]
+[5, 2, []]
+[5, 2, []]
+[0, 2, []]
+[2, 2, []]
+[9, 1, []]
+[10, 1, []]
+[6, 1, ["Markov properties facilitate the composition of likelihoods and priors according to the decomposition of a graph"]]
+[5, 2, []]
+[9, 1, ["Our focus is on Gaussian process graphical models using orthogonal basis expansions", "We propose a hyper-inverse-Wishart-process prior for the covariance kernels of the infinite coefficient sequences of the basis expansion, and establish its existence and uniqueness"]]
+[7, 1, ["We also prove the strong hyper Markov property and the conjugacy of this prior under a finite rank condition of the prior kernel parameter"]]
+[10, 1, ["We introduce a notion of conditional independence between random functions, and construct a framework for Bayesian inference of undirected, decomposable graphs in the multivariate functional data context", "Stochastic search Markov chain Monte Carlo algorithms are developed for posterior inference, assessed through simulations, and applied to a study of brain activity and alcoholism"]]

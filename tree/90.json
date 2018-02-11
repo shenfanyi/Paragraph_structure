@@ -1,0 +1,6 @@
+Parallel processing frameworks (Dean and Ghemawat, 2004)
+accelerate jobs by breaking them into tasks that execute in
+parallel. However, slow running or 
+
+[5, 1, ["Parallel processing frameworks (Dean and Ghemawat, 2004) accelerate jobs by breaking them into tasks that execute in parallel"]]
+[1, 2, []]

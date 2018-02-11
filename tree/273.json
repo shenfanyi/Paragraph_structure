@@ -1,0 +1,8 @@
+Many of the ordinal regression models that have been proposed in
+the literature can be seen as methods that minimize a convex
+surrogate of the zero-one, absolute, or squared loss functions.
+A key property that allows to study the statistical implications
+of such approximations is that of 
+
+[7, 1, ["Many of the ordinal regression models that have been proposed in the literature can be seen as methods that minimize a convex surrogate of the zero-one, absolute, or squared loss functions"]]
+[3, 2, []]

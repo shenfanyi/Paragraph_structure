@@ -1,0 +1,24 @@
+A main question in graphical models and causal inference is
+whether, given a probability distribution $P$ (which is usually
+an underlying distribution of data), there is a graph (or
+graphs) to which $P$ is faithful. The main goal of this paper is
+to provide a theoretical answer to this problem. We work with
+general independence models, which contain probabilistic
+independence models as a special case. We exploit a
+generalization of ordering, called preordering, of the nodes of
+(mixed) graphs. This allows us to provide sufficient conditions
+for a given independence model to be Markov to a graph with the
+minimum possible number of edges, and more importantly,
+necessary and sufficient conditions for a given probability
+distribution to be faithful to a graph. We present our results
+for the general case of mixed graphs, but specialize the
+definitions and results to the better-known subclasses of
+undirected (concentration) and bidirected (covariance) graphs as
+well as directed acyclic graphs.
+
+[10, 1, []]
+[4, 2, []]
+[5, 2, []]
+[4, 2, []]
+[10, 1, []]
+[10, 1, ["A main question in graphical models and causal inference is whether, given a probability distribution $P$ (which is usually an underlying distribution of data), there is a graph (or graphs) to which $P$ is faithful", "We work with general independence models, which contain probabilistic independence models as a special case", "We exploit a generalization of ordering, called preordering, of the nodes of (mixed) graphs", "We present our results for the general case of mixed graphs, but specialize the definitions and results to the better-known subclasses of undirected (concentration) and bidirected (covariance) graphs as well as directed acyclic graphs"]]

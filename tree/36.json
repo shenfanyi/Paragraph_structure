@@ -1,0 +1,8 @@
+The goal of subspace learning is to find a $k$-dimensional
+subspace of $\mathbb{R}^d$, such that the expected squared
+distance between instance vectors and the subspace is as small
+as possible. In this paper we study subspace learning in a
+
+
+[8, 1, ["The goal of subspace learning is to find a $k$-dimensional subspace of $\\mathbb{R}^d$, such that the expected squared distance between instance vectors and the subspace is as small as possible", "In this paper we study subspace learning in a"]]
+[2, 2, []]

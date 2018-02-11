@@ -1,0 +1,16 @@
+SnapVX is a high-performance solver for convex optimization
+problems defined on networks. For problems of this form, SnapVX
+provides a fast and scalable solution with guaranteed global
+convergence. It combines the capabilities of two open source
+software packages: Snap.py and CVXPY. Snap.py is a large scale
+graph processing library, and CVXPY provides a general modeling
+framework for small-scale subproblems. SnapVX offers a
+customizable yet easy-to-use Python interface with 
+
+[7, 1, ["SnapVX is a high-performance solver for convex optimization problems defined on networks", "For problems of this form, SnapVX provides a fast and scalable solution with guaranteed global convergence", "SnapVX offers a customizable yet easy-to-use Python interface with"]]
+[5, 2, []]
+[4, 1, ["It combines the capabilities of two open source software packages: Snap"]]
+[0, 2, []]
+[0, 2, []]
+[8, 1, ["py is a large scale graph processing library, and CVXPY provides a general modeling framework for small-scale subproblems"]]
+[2, 2, []]

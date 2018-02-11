@@ -1,0 +1,34 @@
+Recently, fundamental conditions on the sampling patterns have
+been obtained for finite completability of low-rank matrices or
+tensors given the corresponding ranks. In this paper, we
+consider the scenario where the rank is not given and we aim to
+approximate the unknown rank based on the location of sampled
+entries and some given completion. We consider a number of data
+models, including single-view matrix, multi-view matrix, CP
+tensor, tensor-train tensor and Tucker tensor. For each of these
+data models, we provide an upper bound on the rank when an
+arbitrary low-rank completion is given. We characterize these
+bounds both deterministically, i.e., with probability one given
+that the sampling pattern satisfies certain combinatorial
+properties, and probabilistically, i.e., with high probability
+given that the sampling probability is above some threshold.
+Moreover, for both single-view matrix and CP tensor, we are able
+to show that the obtained upper bound is exactly equal to the
+unknown rank if the lowest-rank completion is given.
+Furthermore, we provide numerical experiments for the case of
+single-view matrix, where we use nuclear norm minimization to
+find a low-rank completion of the sampled data and we observe
+that in most of the cases the proposed upper bound on the rank
+is equal to the true rank.
+
+[7, 2, []]
+[7, 2, []]
+[12, 1, []]
+[6, 2, []]
+[1, 2, []]
+[0, 2, []]
+[4, 1, [", with probability one given that the sampling pattern satisfies certain combinatorial properties, and probabilistically, i", ", with high probability given that the sampling probability is above some threshold"]]
+[0, 2, []]
+[3, 2, []]
+[6, 2, []]
+[12, 1, ["Recently, fundamental conditions on the sampling patterns have been obtained for finite completability of low-rank matrices or tensors given the corresponding ranks", "In this paper, we consider the scenario where the rank is not given and we aim to approximate the unknown rank based on the location of sampled entries and some given completion", "We consider a number of data models, including single-view matrix, multi-view matrix, CP tensor, tensor-train tensor and Tucker tensor", "For each of these data models, we provide an upper bound on the rank when an arbitrary low-rank completion is given", "Moreover, for both single-view matrix and CP tensor, we are able to show that the obtained upper bound is exactly equal to the unknown rank if the lowest-rank completion is given", "Furthermore, we provide numerical experiments for the case of single-view matrix, where we use nuclear norm minimization to find a low-rank completion of the sampled data and we observe that in most of the cases the proposed upper bound on the rank is equal to the true rank"]]

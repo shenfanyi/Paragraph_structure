@@ -1,0 +1,29 @@
+Stochastic gradient descent (SGD) is commonly used for
+optimization in large-scale machine learning problems. Lanford
+et al. (2009) introduce a sparse online learning method to
+induce sparsity via truncated gradient. With high- dimensional
+sparse data, however, this method suffers from slow convergence
+and high variance due to heterogeneity in feature sparsity. To
+mitigate this issue, we introduce a stabilized truncated
+stochastic gradient descent algorithm. We employ a soft-
+thresholding scheme on the weight vector where the imposed
+shrinkage is adaptive to the amount of information available in
+each feature. The variability in the resulted sparse weight
+vector is further controlled by stability selection integrated
+with the informative truncation. To facilitate better
+convergence, we adopt an annealing strategy on the truncation
+rate, which leads to a balanced trade-off between exploration
+and exploitation in learning a sparse weight vector. Numerical
+experiments show that our algorithm compares favorably with the
+original truncated gradient SGD in terms of prediction accuracy,
+achieving both better sparsity and stability.
+
+[7, 2, []]
+[0, 2, []]
+[4, 2, []]
+[7, 2, []]
+[4, 2, []]
+[7, 2, []]
+[6, 2, []]
+[10, 1, ["With high- dimensional sparse data, however, this method suffers from slow convergence and high variance due to heterogeneity in feature sparsity", "We employ a soft- thresholding scheme on the weight vector where the imposed shrinkage is adaptive to the amount of information available in each feature", "The variability in the resulted sparse weight vector is further controlled by stability selection integrated with the informative truncation", "To facilitate better convergence, we adopt an annealing strategy on the truncation rate, which leads to a balanced trade-off between exploration and exploitation in learning a sparse weight vector"]]
+[8, 1, ["Stochastic gradient descent (SGD) is commonly used for optimization in large-scale machine learning problems", "(2009) introduce a sparse online learning method to induce sparsity via truncated gradient", "To mitigate this issue, we introduce a stabilized truncated stochastic gradient descent algorithm", "Numerical experiments show that our algorithm compares favorably with the original truncated gradient SGD in terms of prediction accuracy, achieving both better sparsity and stability"]]

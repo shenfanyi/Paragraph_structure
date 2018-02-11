@@ -1,0 +1,24 @@
+We consider the optimization of a quadratic objective function
+whose gradients are only accessible through a stochastic oracle
+that returns the gradient at any given point plus a zero-mean
+finite variance random error. We present the first algorithm
+that achieves jointly the optimal prediction error rates for
+least-squares regression, both in terms of forgetting the
+initial conditions in $O(1/n^2)$, and in terms of dependence on
+the noise and dimension $d$ of the problem, as $O(d/n)$. Our new
+algorithm is based on averaged accelerated regularized gradient
+descent, and may also be analyzed through finer assumptions on
+initial conditions and the Hessian matrix, leading to dimension-
+free quantities that may still be small in some distances while
+the “optimal” terms above are large. In order to characterize
+the tightness of these new bounds, we consider an application to
+non-parametric regression and use the known lower bounds on the
+statistical performance (without computational limits), which
+happen to match our bounds obtained from a single pass on the
+data and thus show optimality of our algorithm in a wide variety
+of particular trade-offs between bias and variance.
+
+[9, 2, []]
+[15, 2, []]
+[9, 2, []]
+[18, 1, ["We consider the optimization of a quadratic objective function whose gradients are only accessible through a stochastic oracle that returns the gradient at any given point plus a zero-mean finite variance random error", "We present the first algorithm that achieves jointly the optimal prediction error rates for least-squares regression, both in terms of forgetting the initial conditions in $O(1/n^2)$, and in terms of dependence on the noise and dimension $d$ of the problem, as $O(d/n)$", "Our new algorithm is based on averaged accelerated regularized gradient descent, and may also be analyzed through finer assumptions on initial conditions and the Hessian matrix, leading to dimension- free quantities that may still be small in some distances while the \u201coptimal\u201d terms above are large", "In order to characterize the tightness of these new bounds, we consider an application to non-parametric regression and use the known lower bounds on the statistical performance (without computational limits), which happen to match our bounds obtained from a single pass on the data and thus show optimality of our algorithm in a wide variety of particular trade-offs between bias and variance"]]

@@ -1,0 +1,22 @@
+The discovery of causal relationships from purely observational
+data is a fundamental problem in science. The most elementary
+form of such a causal discovery problem is to decide whether $X$
+causes $Y$ or, alternatively, $Y$ causes $X$, given joint
+observations of two variables $X,Y$. An example is to decide
+whether altitude causes temperature, or vice versa, given only
+joint measurements of both variables. Even under the simplifying
+assumptions of no confounding, no feedback loops, and no
+selection bias, such bivariate causal discovery problems are
+challenging. Nevertheless, several approaches for addressing
+those problems have been proposed in recent years. We review two
+families of such methods: methods based on Additive Noise Models
+(ANMs) and Information Geometric Causal Inference (IGCI). We
+present the benchmark 
+
+[5, 2, []]
+[8, 2, []]
+[6, 1, ["An example is to decide whether altitude causes temperature, or vice versa, given only joint measurements of both variables"]]
+[10, 1, ["The discovery of causal relationships from purely observational data is a fundamental problem in science", "The most elementary form of such a causal discovery problem is to decide whether $X$ causes $Y$ or, alternatively, $Y$ causes $X$, given joint observations of two variables $X,Y$", "Even under the simplifying assumptions of no confounding, no feedback loops, and no selection bias, such bivariate causal discovery problems are challenging", "Nevertheless, several approaches for addressing those problems have been proposed in recent years"]]
+[3, 2, []]
+[3, 2, []]
+[1, 2, []]

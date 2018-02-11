@@ -1,0 +1,14 @@
+Traditionally the machine-learning community has viewed the No
+Free Lunch (NFL) theorems for search and optimization as a
+limitation. We review, analyze, and unify the NFL theorem with
+the perspectives of "blind" search and meta-learning to arrive
+at necessary conditions for improving black-box optimization. We
+survey meta-learning literature to determine when and how meta-
+learning can benefit machine learning. Then, we generalize meta-
+learning in the context of the NFL theorems, to arrive at a
+novel technique called 
+
+[6, 2, []]
+[7, 1, ["Traditionally the machine-learning community has viewed the No Free Lunch (NFL) theorems for search and optimization as a limitation", "We review, analyze, and unify the NFL theorem with the perspectives of \"blind\" search and meta-learning to arrive at necessary conditions for improving black-box optimization", "We survey meta-learning literature to determine when and how meta- learning can benefit machine learning", "Then, we generalize meta- learning in the context of the NFL theorems, to arrive at a novel technique called"]]
+[5, 2, []]
+[4, 2, []]

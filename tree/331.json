@@ -1,0 +1,21 @@
+We present an approach based on feed-forward neural networks for
+learning the distribution over textual documents. This approach
+is inspired by the Neural Autoregressive Distribution Estimator
+(NADE) model which has been shown to be a good estimator of the
+distribution over discrete-valued high-dimensional vectors. In
+this paper, we present how NADE can successfully be adapted to
+textual data, retaining the property that sampling or computing
+the probability of an observation can be done exactly and
+efficiently. The approach can also be used to learn deep
+representations of documents that are competitive to those
+learned by alternative topic modeling approaches. Finally, we
+describe how the approach can be combined with a regular neural
+network N-gram model and substantially improve its performance,
+by making its learned representation sensitive to the larger,
+document-level context.
+
+[6, 2, []]
+[6, 2, []]
+[5, 2, []]
+[6, 2, []]
+[9, 1, ["We present an approach based on feed-forward neural networks for learning the distribution over textual documents", "This approach is inspired by the Neural Autoregressive Distribution Estimator (NADE) model which has been shown to be a good estimator of the distribution over discrete-valued high-dimensional vectors", "The approach can also be used to learn deep representations of documents that are competitive to those learned by alternative topic modeling approaches", "Finally, we describe how the approach can be combined with a regular neural network N-gram model and substantially improve its performance, by making its learned representation sensitive to the larger, document-level context"]]

@@ -1,0 +1,17 @@
+We propose a novel approach to Bayesian analysis that is
+provably robust to outliers in the data and often has
+computational advantages over standard methods. Our technique is
+based on splitting the data into non-overlapping subgroups,
+evaluating the posterior distribution given each independent
+subgroup, and then combining the resulting measures. The main
+novelty of our approach is the proposed aggregation step, which
+is based on the evaluation of a median in the space of
+probability measures equipped with a suitable collection of
+distances that can be quickly and efficiently evaluated in
+practice. We present both theoretical and numerical evidence
+illustrating the improvements achieved by our method.
+
+[6, 2, []]
+[8, 2, []]
+[12, 1, ["We propose a novel approach to Bayesian analysis that is provably robust to outliers in the data and often has computational advantages over standard methods", "Our technique is based on splitting the data into non-overlapping subgroups, evaluating the posterior distribution given each independent subgroup, and then combining the resulting measures", "The main novelty of our approach is the proposed aggregation step, which is based on the evaluation of a median in the space of probability measures equipped with a suitable collection of distances that can be quickly and efficiently evaluated in practice"]]
+[3, 2, []]

@@ -1,0 +1,11 @@
+This work analyzes centered Restricted Boltzmann Machines (RBMs)
+and centered Deep Boltzmann Machines (DBMs), where centering is
+done by subtracting offset values from visible and hidden
+variables. We show analytically that (i) centered and normal
+Boltzmann Machines (BMs) and thus RBMs and DBMs are different
+parameterizations of the same model class, such that any normal
+BM/RBM/DBM can be transformed to an equivalent centered
+BM/RBM/DBM and 
+
+[4, 2, []]
+[8, 1, ["We show analytically that (i) centered and normal Boltzmann Machines (BMs) and thus RBMs and DBMs are different parameterizations of the same model class, such that any normal BM/RBM/DBM can be transformed to an equivalent centered BM/RBM/DBM and"]]

@@ -1,0 +1,19 @@
+Model selection consistency in the high--dimensional regression
+setting can be achieved only if strong assumptions are
+fulfilled. We therefore suggest to pursue a different goal,
+which we call a minimal class of models. The minimal class of
+models includes models that are similar in their prediction
+accuracy but not necessarily in their elements. We suggest a
+random search algorithm to reveal candidate models. The
+algorithm implements simulated annealing while using a score for
+each predictor that we suggest to derive using a combination of
+the lasso and the elastic net. The utility of using a minimal
+class of models is demonstrated in the analysis of two data
+sets.
+
+[6, 1, []]
+[3, 2, []]
+[6, 1, []]
+[4, 2, []]
+[7, 1, ["We suggest a random search algorithm to reveal candidate models", "The algorithm implements simulated annealing while using a score for each predictor that we suggest to derive using a combination of the lasso and the elastic net"]]
+[6, 1, ["We therefore suggest to pursue a different goal, which we call a minimal class of models", "The minimal class of models includes models that are similar in their prediction accuracy but not necessarily in their elements", "The utility of using a minimal class of models is demonstrated in the analysis of two data sets"]]

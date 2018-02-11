@@ -1,0 +1,19 @@
+The robust improper maximum likelihood estimator (RIMLE) is a
+new method for robust multivariate clustering finding
+approximately Gaussian clusters. It maximizes a pseudo-
+likelihood defined by adding a component with improper constant
+density for accommodating outliers to a Gaussian mixture. A
+special case of the RIMLE is MLE for multivariate finite
+Gaussian mixture models. In this paper we treat existence,
+consistency, and breakdown theory for the RIMLE comprehensively.
+RIMLE's existence is proved under non-smooth covariance matrix
+constraints. It is shown that these can be implemented via a
+computationally feasible Expectation-Conditional Maximization
+algorithm.
+
+[6, 1, ["The robust improper maximum likelihood estimator (RIMLE) is a new method for robust multivariate clustering finding approximately Gaussian clusters", "It maximizes a pseudo- likelihood defined by adding a component with improper constant density for accommodating outliers to a Gaussian mixture", "A special case of the RIMLE is MLE for multivariate finite Gaussian mixture models"]]
+[5, 1, []]
+[4, 2, []]
+[5, 1, ["In this paper we treat existence, consistency, and breakdown theory for the RIMLE comprehensively", "RIMLE's existence is proved under non-smooth covariance matrix constraints"]]
+[4, 2, []]
+[1, 2, []]

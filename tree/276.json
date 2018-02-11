@@ -1,0 +1,24 @@
+In recent years it has become popular to study machine learning
+problems in a setting of ordinal distance information rather
+than numerical distance measurements. By ordinal distance
+information we refer to binary answers to distance comparisons
+such as $d(A,B)&lt;d(C,D)$. For many problems in machine learning
+and statistics it is unclear how to solve them in such a
+scenario. Up to now, the main approach is to explicitly
+construct an ordinal embedding of the data points in the
+Euclidean space, an approach that has a number of drawbacks. In
+this paper, we propose algorithms for the problems of medoid
+estimation, outlier identification, classification, and
+clustering when given only ordinal data. They are based on
+estimating the lens depth function and the $k$-relative
+neighborhood graph on a data set. Our algorithms are simple, are
+much faster than an ordinal embedding approach and avoid some of
+its drawbacks, and can easily be parallelized.
+
+[9, 1, ["In recent years it has become popular to study machine learning problems in a setting of ordinal distance information rather than numerical distance measurements", "By ordinal distance information we refer to binary answers to distance comparisons such as $d(A,B)&lt;d(C,D)$", "For many problems in machine learning and statistics it is unclear how to solve them in such a scenario", "In this paper, we propose algorithms for the problems of medoid estimation, outlier identification, classification, and clustering when given only ordinal data"]]
+[6, 2, []]
+[5, 2, []]
+[8, 1, []]
+[8, 1, ["Up to now, the main approach is to explicitly construct an ordinal embedding of the data points in the Euclidean space, an approach that has a number of drawbacks", "They are based on estimating the lens depth function and the $k$-relative neighborhood graph on a data set", "Our algorithms are simple, are much faster than an ordinal embedding approach and avoid some of its drawbacks, and can easily be parallelized"]]
+[6, 2, []]
+[4, 2, []]

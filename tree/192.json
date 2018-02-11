@@ -1,0 +1,10 @@
+Given a high-dimensional data set, we often wish to find the
+strongest relationships within it. A common strategy is to
+evaluate a measure of dependence on every variable pair and
+retain the highest-scoring pairs for follow-up. This strategy
+works well if the statistic used (a) has good power to detect
+non-trivial relationships, and (b) is 
+
+[2, 2, []]
+[7, 1, ["A common strategy is to evaluate a measure of dependence on every variable pair and retain the highest-scoring pairs for follow-up", "This strategy works well if the statistic used (a) has good power to detect non-trivial relationships, and (b) is"]]
+[4, 2, []]

@@ -1,0 +1,31 @@
+We focus on the distribution regression problem: regressing to
+vector-valued outputs from probability measures. Many important
+machine learning and statistical tasks fit into this framework,
+including multi-instance learning and point estimation problems
+without analytical solution (such as hyperparameter or entropy
+estimation). Despite the large number of available heuristics in
+the literature, the inherent two-stage sampled nature of the
+problem makes the theoretical analysis quite challenging, since
+in practice only samples from sampled distributions are
+observable, and the estimates have to rely on similarities
+computed between sets of points. To the best of our knowledge,
+the only existing technique with consistency guarantees for
+distribution regression requires kernel density estimation as an
+intermediate step (which often performs poorly in practice), and
+the domain of the distributions to be compact Euclidean. In this
+paper, we study a simple, analytically computable, ridge
+regression-based alternative to distribution regression, where
+we embed the distributions to a reproducing kernel Hilbert
+space, and learn the regressor from the embeddings to the
+outputs. Our main contribution is to prove that this scheme is
+consistent in the two-stage sampled setup under mild conditions
+(on separable topological domains enriched with kernels): we
+present an exact computational-statistical efficiency trade-off
+analysis showing that our estimator is able to match the  
+
+[7, 2, []]
+[12, 2, []]
+[14, 1, ["We focus on the distribution regression problem: regressing to vector-valued outputs from probability measures", "Despite the large number of available heuristics in the literature, the inherent two-stage sampled nature of the problem makes the theoretical analysis quite challenging, since in practice only samples from sampled distributions are observable, and the estimates have to rely on similarities computed between sets of points", "To the best of our knowledge, the only existing technique with consistency guarantees for distribution regression requires kernel density estimation as an intermediate step (which often performs poorly in practice), and the domain of the distributions to be compact Euclidean", "In this paper, we study a simple, analytically computable, ridge regression-based alternative to distribution regression, where we embed the distributions to a reproducing kernel Hilbert space, and learn the regressor from the embeddings to the outputs", "Our main contribution is to prove that this scheme is consistent in the two-stage sampled setup under mild conditions (on separable topological domains enriched with kernels): we present an exact computational-statistical efficiency trade-off analysis showing that our estimator is able to match the"]]
+[13, 2, []]
+[12, 2, []]
+[11, 2, []]

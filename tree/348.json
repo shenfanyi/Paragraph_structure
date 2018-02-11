@@ -1,0 +1,15 @@
+In statistical relational learning, knowledge graph completion
+deals with automatically understanding the structure of large
+knowledge graphs---labeled directed graphs---and predicting
+missing relationships---labeled edges. State-of-the-art
+embedding models propose different trade-offs between modeling
+expressiveness, and time and space complexity. We reconcile both
+expressiveness and complexity through the use of complex-valued
+embeddings and explore the link between such complex-valued
+embeddings and unitary diagonalization. We corroborate our
+approach theoretically and show that 
+
+[10, 1, []]
+[10, 1, ["State-of-the-art embedding models propose different trade-offs between modeling expressiveness, and time and space complexity", "We reconcile both expressiveness and complexity through the use of complex-valued embeddings and explore the link between such complex-valued embeddings and unitary diagonalization"]]
+[8, 2, []]
+[1, 2, []]

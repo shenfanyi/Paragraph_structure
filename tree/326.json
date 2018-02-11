@@ -1,0 +1,10 @@
+In this paper, we explore statistical versus computational
+trade-off to address a basic question in the application of a
+distributed algorithm: what is the minimal computational cost in
+obtaining statistical optimality? In smoothing spline setup, we
+observe a phase transition phenomenon for the number of deployed
+machines that ends up being a simple proxy for computing cost.
+Specifically, a 
+
+[18, 1, ["In this paper, we explore statistical versus computational trade-off to address a basic question in the application of a distributed algorithm: what is the minimal computational cost in obtaining statistical optimality? In smoothing spline setup, we observe a phase transition phenomenon for the number of deployed machines that ends up being a simple proxy for computing cost"]]
+[0, 2, []]

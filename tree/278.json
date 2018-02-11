@@ -1,0 +1,18 @@
+Community detection is a fundamental statistical problem in
+network data analysis.  In this paper, we present a polynomial
+time two-stage method that provably achieves optimal statistical
+performance in misclassification proportion for stochastic block
+model under weak regularity conditions. Our two-stage procedure
+consists of a refinement stage motivated by penalized local
+maximum likelihood estimation. This stage can take a wide range
+of weakly consistent community detection procedures as its
+initializer, to which it applies and outputs a community
+assignment that achieves optimal misclassification proportion
+with high probability. The theoretical property is confirmed by
+simulated examples.
+
+[6, 2, []]
+[11, 1, []]
+[6, 2, []]
+[11, 1, ["Community detection is a fundamental statistical problem in network data analysis", "In this paper, we present a polynomial time two-stage method that provably achieves optimal statistical performance in misclassification proportion for stochastic block model under weak regularity conditions", "Our two-stage procedure consists of a refinement stage motivated by penalized local maximum likelihood estimation", "This stage can take a wide range of weakly consistent community detection procedures as its initializer, to which it applies and outputs a community assignment that achieves optimal misclassification proportion with high probability"]]
+[2, 2, []]

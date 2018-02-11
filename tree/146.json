@@ -1,0 +1,13 @@
+Crowdsourcing has gained immense popularity in machine learning
+applications for obtaining large amounts of labeled data.
+Crowdsourcing is cheap and fast, but suffers from the problem of
+low-quality data. To address this fundamental challenge in
+crowdsourcing, we propose a simple payment mechanism to
+incentivize workers to answer only the questions that they are
+sure of and skip the rest. We show that surprisingly, under a
+mild and natural 
+
+[7, 1, []]
+[4, 1, ["Crowdsourcing is cheap and fast, but suffers from the problem of low-quality data"]]
+[7, 1, ["To address this fundamental challenge in crowdsourcing, we propose a simple payment mechanism to incentivize workers to answer only the questions that they are sure of and skip the rest"]]
+[0, 2, []]

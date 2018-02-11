@@ -1,0 +1,35 @@
+We study the problem of solving a quadratic system of equations,
+i.e., recovering a vector signal $\boldsymbol{x}\in
+\mathbb{R}^n$ from its magnitude measurements $y_i=|\langle
+\boldsymbol{a}_i, \boldsymbol{x}\rangle|, i=1,..., m$. We
+develop a gradient descent algorithm (referred to as RWF for
+reshaped Wirtinger flow) by minimizing the quadratic loss of the
+magnitude measurements. Comparing with Wirtinger flow (WF)
+(Candes et al., 2015), the loss function of RWF is nonconvex and
+nonsmooth, but better resembles the least-squares loss when the
+phase information is also available. We show that for random
+Gaussian measurements, RWF enjoys linear convergence to the true
+signal as long as the number of measurements is
+$\mathcal{O}(n)$. This improves the sample complexity of WF
+($\mathcal{O}(n\log n)$), and achieves the same sample
+complexity as truncated Wirtinger flow (TWF) (Chen and Candes,
+2015), but without any sophisticated truncation in the gradient
+loop. Furthermore, RWF costs less computationally than WF, and
+runs faster numerically than both WF and TWF. We further develop
+an incremental (stochastic) version of RWF (IRWF) and connect it
+with the randomized Kaczmarz method for phase retrieval. We
+demonstrate that IRWF outperforms existing incremental as well
+as batch algorithms with experiments.
+
+[3, 1, ["We study the problem of solving a quadratic system of equations, i"]]
+[0, 2, []]
+[4, 1, []]
+[1, 2, []]
+[7, 2, []]
+[1, 2, []]
+[8, 1, []]
+[5, 1, []]
+[8, 1, ["We develop a gradient descent algorithm (referred to as RWF for reshaped Wirtinger flow) by minimizing the quadratic loss of the magnitude measurements", "Comparing with Wirtinger flow (WF) (Candes et al", "This improves the sample complexity of WF ($\\mathcal{O}(n\\log n)$), and achieves the same sample complexity as truncated Wirtinger flow (TWF) (Chen and Candes, 2015), but without any sophisticated truncation in the gradient loop"]]
+[0, 2, []]
+[4, 1, ["We further develop an incremental (stochastic) version of RWF (IRWF) and connect it with the randomized Kaczmarz method for phase retrieval"]]
+[5, 1, ["We demonstrate that IRWF outperforms existing incremental as well as batch algorithms with experiments"]]

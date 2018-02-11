@@ -1,0 +1,29 @@
+This paper provides error analysis for distributed semi-
+supervised learning with kernel ridge regression (DSKRR) based
+on a divide-and-conquer strategy. DSKRR applies kernel ridge
+regression (KRR) to data subsets that are distributively stored
+on multiple servers to produce individual output functions, and
+then takes a weighted average of the individual output functions
+as a final estimator. Using a novel error decomposition which
+divides the generalization error of DSKRR into the approximation
+error, sample error and distributed error, we find that the
+sample error and distributed error reflect the power and
+limitation of DSKRR, compared with KRR processing the whole
+data. Thus a small distributed error provides a large range of
+the number of data subsets to guarantee a small generalization
+error. Our results show that unlabeled data play important roles
+in reducing the distributed error and enlarging the number of
+data subsets in DSKRR. Our analysis also applies to the case
+when the regression function is out of the reproducing kernel
+Hilbert space. Numerical experiments including toy simulations
+and a music-prediction task are employed to demonstrate our
+theoretical statements and show the power of unlabeled data in
+distributed learning.
+
+[10, 2, []]
+[13, 2, []]
+[16, 1, ["This paper provides error analysis for distributed semi- supervised learning with kernel ridge regression (DSKRR) based on a divide-and-conquer strategy", "DSKRR applies kernel ridge regression (KRR) to data subsets that are distributively stored on multiple servers to produce individual output functions, and then takes a weighted average of the individual output functions as a final estimator", "Using a novel error decomposition which divides the generalization error of DSKRR into the approximation error, sample error and distributed error, we find that the sample error and distributed error reflect the power and limitation of DSKRR, compared with KRR processing the whole data", "Thus a small distributed error provides a large range of the number of data subsets to guarantee a small generalization error", "Our results show that unlabeled data play important roles in reducing the distributed error and enlarging the number of data subsets in DSKRR", "Numerical experiments including toy simulations and a music-prediction task are employed to demonstrate our theoretical statements and show the power of unlabeled data in distributed learning"]]
+[7, 2, []]
+[8, 2, []]
+[6, 2, []]
+[10, 2, []]

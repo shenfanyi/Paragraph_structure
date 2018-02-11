@@ -1,0 +1,18 @@
+We study randomized sketching methods for approximately solving
+least-squares problem with a general convex constraint. The
+quality of a least-squares approximation can be assessed in
+different ways: either in terms of the value of the quadratic
+objective function (cost approximation), or in terms of some
+distance measure between the approximate minimizer and the true
+minimizer (solution approximation). Focusing on the latter
+criterion, our first main result provides a general lower bound
+on any randomized method that sketches both the data matrix and
+vector in a least-squares problem; as a surprising consequence,
+the most widely used least-squares sketch is sub-optimal for
+solution approximation. We then present a new method known as
+the 
+
+[5, 2, []]
+[17, 1, ["We study randomized sketching methods for approximately solving least-squares problem with a general convex constraint", "The quality of a least-squares approximation can be assessed in different ways: either in terms of the value of the quadratic objective function (cost approximation), or in terms of some distance measure between the approximate minimizer and the true minimizer (solution approximation)", "Focusing on the latter criterion, our first main result provides a general lower bound on any randomized method that sketches both the data matrix and vector in a least-squares problem; as a surprising consequence, the most widely used least-squares sketch is sub-optimal for solution approximation"]]
+[14, 2, []]
+[1, 2, []]

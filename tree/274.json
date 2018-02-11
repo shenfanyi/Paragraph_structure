@@ -1,0 +1,33 @@
+In this paper, we focus on parameters estimation of
+probabilistic models in discrete space. A naive calculation of
+the normalization constant of the probabilistic model on
+discrete space is often infeasible and statistical inference
+based on such probabilistic models has difficulty. In this
+paper, we propose a novel estimator for probabilistic models on
+discrete space, which is derived from an empirically localized
+homogeneous divergence. The idea of the empirical localization
+makes it possible to ignore an unobserved domain on sample
+space, and the homogeneous divergence is a discrepancy measure
+between two positive measures and has a weak coincidence axiom.
+The proposed estimator can be constructed without calculating
+the normalization constant and is asymptotically consistent and
+Fisher efficient. We investigate statistical properties of the
+proposed estimator and reveal a relationship between the
+empirically localized homogeneous divergence and a mixture of
+the $\alpha$-divergence. The $\alpha$-divergence is a non-
+homogeneous discrepancy measure that is frequently discussed in
+the context of information geometry. Using the relationship, we
+also propose an asymptotically consistent estimator of the
+normalization constant. Experiments showed that the proposed
+estimator comparably performs to the maximum likelihood
+estimator but with drastically lower computational cost.
+
+[5, 1, []]
+[7, 2, []]
+[5, 1, []]
+[11, 1, ["In this paper, we focus on parameters estimation of probabilistic models in discrete space", "A naive calculation of the normalization constant of the probabilistic model on discrete space is often infeasible and statistical inference based on such probabilistic models has difficulty", "In this paper, we propose a novel estimator for probabilistic models on discrete space, which is derived from an empirically localized homogeneous divergence", "The idea of the empirical localization makes it possible to ignore an unobserved domain on sample space, and the homogeneous divergence is a discrepancy measure between two positive measures and has a weak coincidence axiom", "We investigate statistical properties of the proposed estimator and reveal a relationship between the empirically localized homogeneous divergence and a mixture of the $\\alpha$-divergence", "The $\\alpha$-divergence is a non- homogeneous discrepancy measure that is frequently discussed in the context of information geometry"]]
+[2, 2, []]
+[6, 2, []]
+[6, 2, []]
+[3, 2, []]
+[5, 1, ["The proposed estimator can be constructed without calculating the normalization constant and is asymptotically consistent and Fisher efficient", "Using the relationship, we also propose an asymptotically consistent estimator of the normalization constant", "Experiments showed that the proposed estimator comparably performs to the maximum likelihood estimator but with drastically lower computational cost"]]

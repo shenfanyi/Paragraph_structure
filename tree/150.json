@@ -1,0 +1,16 @@
+Training a multilayer perceptron (MLP) with algorithms employing
+global search strategies has been an important research
+direction in the field of neural networks. Despite a number of
+significant results, an important matter concerning the bounds
+of the search region---typically defined as a box---where a
+global optimization method has to search for a potential global
+minimizer seems to be unresolved. The approach presented in this
+paper builds on interval analysis and attempts to define
+guaranteed bounds in the search space prior to applying a global
+search algorithm for training an MLP. These bounds depend on the
+machine precision and the term 
+
+[8, 2, []]
+[10, 1, []]
+[10, 1, ["Training a multilayer perceptron (MLP) with algorithms employing global search strategies has been an important research direction in the field of neural networks", "Despite a number of significant results, an important matter concerning the bounds of the search region---typically defined as a box---where a global optimization method has to search for a potential global minimizer seems to be unresolved", "The approach presented in this paper builds on interval analysis and attempts to define guaranteed bounds in the search space prior to applying a global search algorithm for training an MLP", "These bounds depend on the machine precision and the term"]]
+[4, 2, []]

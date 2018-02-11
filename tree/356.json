@@ -1,0 +1,22 @@
+Information about intrinsic dimension is crucial to perform
+dimensionality reduction, compress information, design efficient
+algorithms, and do statistical adaptation. In this paper we
+propose an estimator for the intrinsic dimension of a data set.
+The estimator is based on binary neighbourhood information about
+the observations in the form of two adjacency matrices, and does
+not require any explicit distance information. The underlying
+graph is modelled according to a subset of a specific random
+connection model, sometimes referred to as the Poisson blob
+model. Computationally the estimator scales like $n\log n$, and
+we specify its asymptotic distribution and rate of convergence.
+A simulation study on both real and simulated data shows that
+our approach compares favourably with some competing methods
+from the literature, including approaches that rely on distance
+information.
+
+[8, 2, []]
+[4, 2, []]
+[9, 1, []]
+[6, 2, []]
+[5, 2, []]
+[9, 1, ["Information about intrinsic dimension is crucial to perform dimensionality reduction, compress information, design efficient algorithms, and do statistical adaptation", "In this paper we propose an estimator for the intrinsic dimension of a data set", "The estimator is based on binary neighbourhood information about the observations in the form of two adjacency matrices, and does not require any explicit distance information", "A simulation study on both real and simulated data shows that our approach compares favourably with some competing methods from the literature, including approaches that rely on distance information"]]

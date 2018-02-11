@@ -1,0 +1,35 @@
+Applying standard Markov chain Monte Carlo (MCMC) algorithms to
+large data sets is computationally infeasible. The recently
+proposed stochastic gradient Langevin dynamics (SGLD) method
+circumvents this problem in three ways: it generates proposed
+moves using only a subset of the data, it skips the Metropolis-
+Hastings accept-reject step, and it uses sequences of decreasing
+step sizes. In Teh et al. (2014), we provided the mathematical
+foundations for the decreasing step size SGLD, including
+consistency and a central limit theorem. However, in practice
+the SGLD is run for a relatively small number of iterations, and
+its step size is not decreased to zero. The present article
+investigates the behaviour of the SGLD with fixed step size. In
+particular we characterise the asymptotic bias explicitly, along
+with its dependence on the step size and the variance of the
+stochastic gradient. On that basis a modified SGLD which removes
+the asymptotic bias due to the variance of the stochastic
+gradients up to first order in the step size is derived.
+Moreover, we are able to obtain bounds on the finite-time bias,
+variance and mean squared error (MSE). The theory is illustrated
+with a Gaussian toy model for which the bias and the MSE for the
+estimation of moments can be obtained explicitly. For this toy
+model we study the gain of the SGLD over the standard Euler
+method in the limit of large data sets.
+
+[3, 2, []]
+[13, 1, ["Applying standard Markov chain Monte Carlo (MCMC) algorithms to large data sets is computationally infeasible", "The recently proposed stochastic gradient Langevin dynamics (SGLD) method circumvents this problem in three ways: it generates proposed moves using only a subset of the data, it skips the Metropolis- Hastings accept-reject step, and it uses sequences of decreasing step sizes", "(2014), we provided the mathematical foundations for the decreasing step size SGLD, including consistency and a central limit theorem", "However, in practice the SGLD is run for a relatively small number of iterations, and its step size is not decreased to zero", "The present article investigates the behaviour of the SGLD with fixed step size", "In particular we characterise the asymptotic bias explicitly, along with its dependence on the step size and the variance of the stochastic gradient", "On that basis a modified SGLD which removes the asymptotic bias due to the variance of the stochastic gradients up to first order in the step size is derived", "For this toy model we study the gain of the SGLD over the standard Euler method in the limit of large data sets"]]
+[1, 2, []]
+[7, 2, []]
+[5, 2, []]
+[4, 2, []]
+[6, 1, []]
+[7, 2, []]
+[5, 2, []]
+[6, 1, ["Moreover, we are able to obtain bounds on the finite-time bias, variance and mean squared error (MSE)", "The theory is illustrated with a Gaussian toy model for which the bias and the MSE for the estimation of moments can be obtained explicitly"]]
+[7, 2, []]

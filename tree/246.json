@@ -1,0 +1,21 @@
+This paper presents an original Markov chain Monte Carlo method
+to sample from the posterior distribution of conjugate mixture
+models. This algorithm relies on a flexible split-merge
+procedure built using the particle Gibbs sampler introduced in
+Andrieu et al. (2009, 2010). The resulting so-called Particle
+Gibbs Split-Merge sampler does not require the computation of a
+complex acceptance ratio and can be implemented using existing
+sequential Monte Carlo libraries. We investigate its performance
+experimentally on synthetic problems as well as on geolocation
+data. Our results show that for a given computational budget,
+the Particle Gibbs Split-Merge sampler empirically outperforms
+existing split merge methods. The code and instructions allowing
+to reproduce the experiments is available at 
+
+[7, 1, []]
+[7, 1, ["This algorithm relies on a flexible split-merge procedure built using the particle Gibbs sampler introduced in Andrieu et al", "The resulting so-called Particle Gibbs Split-Merge sampler does not require the computation of a complex acceptance ratio and can be implemented using existing sequential Monte Carlo libraries", "Our results show that for a given computational budget, the Particle Gibbs Split-Merge sampler empirically outperforms existing split merge methods"]]
+[0, 2, []]
+[5, 2, []]
+[4, 1, ["We investigate its performance experimentally on synthetic problems as well as on geolocation data"]]
+[5, 2, []]
+[3, 2, []]

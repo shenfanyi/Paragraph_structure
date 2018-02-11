@@ -1,0 +1,36 @@
+Due to the non-linear but highly interpretable representations,
+decision tree (DT) models have significantly attracted a lot of
+attention of researchers. However, it is difficult to understand
+and interpret DT models in ultrahigh dimensions and DT models
+usually suffer from the curse of dimensionality and achieve
+degenerated performance when there are many noisy features. To
+address these issues, this paper first presents a novel data-
+dependent generalization error bound for the perceptron decision
+tree (PDT), which provides the theoretical justification to
+learn a sparse linear hyperplane in each decision node and to
+prune the tree. Following our analysis, we introduce the notion
+of budget-aware classifier (BAC) with a budget constraint on the
+weight coefficients, and propose a supervised budgeted tree
+(SBT) algorithm to achieve non-linear prediction performance. To
+avoid generating an unstable and complicated decision tree and
+improve the generalization of the SBT, we present a pruning
+strategy by learning classifiers to minimize cross-validation
+errors on each BAC. To deal with ultrahigh label dimensions,
+based on three important phenomena of real-world data sets from
+a variety of application domains, we develop a sparse coding
+tree framework for multi-label annotation problems and provide
+the theoretical analysis. Extensive empirical studies verify
+that 1) SBT is easy to understand and interpret in ultrahigh
+dimensions and is more resilient to noisy features. 2) Compared
+with state-of-the-art algorithms, our proposed sparse coding
+tree framework is more efficient, yet accurate in ultrahigh
+label and feature dimensions.
+
+[8, 2, []]
+[7, 2, []]
+[11, 2, []]
+[12, 2, []]
+[8, 2, []]
+[15, 1, ["Due to the non-linear but highly interpretable representations, decision tree (DT) models have significantly attracted a lot of attention of researchers", "However, it is difficult to understand and interpret DT models in ultrahigh dimensions and DT models usually suffer from the curse of dimensionality and achieve degenerated performance when there are many noisy features", "To address these issues, this paper first presents a novel data- dependent generalization error bound for the perceptron decision tree (PDT), which provides the theoretical justification to learn a sparse linear hyperplane in each decision node and to prune the tree", "Following our analysis, we introduce the notion of budget-aware classifier (BAC) with a budget constraint on the weight coefficients, and propose a supervised budgeted tree (SBT) algorithm to achieve non-linear prediction performance", "To avoid generating an unstable and complicated decision tree and improve the generalization of the SBT, we present a pruning strategy by learning classifiers to minimize cross-validation errors on each BAC", "To deal with ultrahigh label dimensions, based on three important phenomena of real-world data sets from a variety of application domains, we develop a sparse coding tree framework for multi-label annotation problems and provide the theoretical analysis", "Extensive empirical studies verify that 1) SBT is easy to understand and interpret in ultrahigh dimensions and is more resilient to noisy features", "2) Compared with state-of-the-art algorithms, our proposed sparse coding tree framework is more efficient, yet accurate in ultrahigh label and feature dimensions"]]
+[3, 2, []]
+[8, 2, []]

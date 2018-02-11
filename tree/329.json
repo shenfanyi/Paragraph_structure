@@ -1,0 +1,47 @@
+One of the most challenging problems in kernel online learning
+is to bound the model size and to promote model sparsity. Sparse
+models not only improve computation and memory usage, but also
+enhance the generalization capacity -- a principle that concurs
+with the law of parsimony. However, inappropriate sparsity
+modeling may also significantly degrade the performance. In this
+paper, we propose Approximation Vector Machine (AVM), a model
+that can simultaneously encourage sparsity and safeguard its
+risk in compromising the performance. In an online setting
+context, when an incoming instance arrives, we approximate this
+instance by one of its neighbors whose distance to it is less
+than a predefined threshold. Our key intuition is that since the
+newly seen instance is expressed by its nearby neighbor the
+optimal performance can be analytically formulated and
+maintained. We develop theoretical foundations to support this
+intuition and further establish an analysis for the common loss
+functions including Hinge, smooth Hinge, and Logistic (i.e., for
+the classification task) and $\ell_{1}$, $\ell_{2}$, and
+$\varepsilon$-insensitive (i.e., for the regression task) to
+characterize the gap between the approximation and optimal
+solutions. This gap crucially depends on two key factors
+including the frequency of approximation (i.e., how frequent the
+approximation operation takes place) and the predefined
+threshold. We conducted extensive experiments for classification
+and regression tasks in batch and online modes using several
+benchmark datasets. The quantitative results show that our
+proposed AVM obtained comparable predictive performances with
+current state-of-the-art methods while simultaneously achieving
+significant computational speed-up due to the ability of the
+proposed AVM in maintaining the model size.
+
+[7, 1, []]
+[9, 1, ["Sparse models not only improve computation and memory usage, but also enhance the generalization capacity -- a principle that concurs with the law of parsimony"]]
+[3, 2, []]
+[5, 1, []]
+[7, 1, ["In an online setting context, when an incoming instance arrives, we approximate this instance by one of its neighbors whose distance to it is less than a predefined threshold", "Our key intuition is that since the newly seen instance is expressed by its nearby neighbor the optimal performance can be analytically formulated and maintained", ", how frequent the approximation operation takes place) and the predefined threshold"]]
+[4, 2, []]
+[5, 1, []]
+[0, 2, []]
+[4, 2, []]
+[0, 2, []]
+[5, 1, ["This gap crucially depends on two key factors including the frequency of approximation (i"]]
+[4, 2, []]
+[0, 2, []]
+[4, 2, []]
+[8, 1, [", for the classification task) and $\\ell_{1}$, $\\ell_{2}$, and $\\varepsilon$-insensitive (i", ", for the regression task) to characterize the gap between the approximation and optimal solutions", "We conducted extensive experiments for classification and regression tasks in batch and online modes using several benchmark datasets"]]
+[10, 1, ["One of the most challenging problems in kernel online learning is to bound the model size and to promote model sparsity", "In this paper, we propose Approximation Vector Machine (AVM), a model that can simultaneously encourage sparsity and safeguard its risk in compromising the performance", "The quantitative results show that our proposed AVM obtained comparable predictive performances with current state-of-the-art methods while simultaneously achieving significant computational speed-up due to the ability of the proposed AVM in maintaining the model size"]]

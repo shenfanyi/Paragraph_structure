@@ -1,0 +1,8 @@
+We consider statistical as well as algorithmic aspects of
+solving large-scale least-squares (LS) problems using randomized
+sketching algorithms. For a LS problem with input data $(X, Y)
+\in \mathbb{R}^{n \times p} \times \mathbb{R}^n$, sketching
+algorithms use a 
+
+[5, 2, []]
+[7, 1, ["We consider statistical as well as algorithmic aspects of solving large-scale least-squares (LS) problems using randomized sketching algorithms", "For a LS problem with input data $(X, Y) \\in \\mathbb{R}^{n \\times p} \\times \\mathbb{R}^n$, sketching algorithms use a"]]

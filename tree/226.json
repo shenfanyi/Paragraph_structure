@@ -1,0 +1,11 @@
+Many data sets can be viewed as a noisy sampling of an
+underlying space, and tools from topological data analysis can
+characterize this structure for the purpose of knowledge
+discovery. One such tool is persistent homology, which provides
+a multiscale description of the homological features within a
+data set. A useful representation of this homological
+information is a 
+
+[11, 1, ["Many data sets can be viewed as a noisy sampling of an underlying space, and tools from topological data analysis can characterize this structure for the purpose of knowledge discovery", "One such tool is persistent homology, which provides a multiscale description of the homological features within a data set"]]
+[5, 2, []]
+[2, 2, []]

@@ -1,0 +1,27 @@
+Tuning the regularisation and kernel hyperparameters is a vital
+step in optimising the generalisation performance of kernel
+methods, such as the support vector machine (SVM). This is most
+often performed by minimising a resampling/cross-validation
+based model selection criterion, however there seems little
+practical guidance on the most suitable form of resampling. This
+paper presents the results of an extensive empirical evaluation
+of resampling procedures for SVM hyperparameter selection,
+designed to address this gap in the machine learning literature.
+We tested 15 different resampling procedures on 121 binary
+classification data sets in order to select the best SVM
+hyperparameters. We used three very different statistical
+procedures to analyse the results: the standard multi-
+classifier/multi-data set procedure proposed by Dem\v{s}ar, the
+confidence intervals on the excess loss of each procedure in
+relation to 5-fold cross validation, and the Bayes factor
+analysis proposed by Barber. We conclude that a 2-fold procedure
+is appropriate to select the hyperparameters of an SVM for data
+sets for 1000 or more datapoints, while a 3-fold procedure is
+appropriate for smaller data sets.
+
+[11, 2, []]
+[9, 2, []]
+[9, 2, []]
+[7, 2, []]
+[15, 1, ["This is most often performed by minimising a resampling/cross-validation based model selection criterion, however there seems little practical guidance on the most suitable form of resampling", "This paper presents the results of an extensive empirical evaluation of resampling procedures for SVM hyperparameter selection, designed to address this gap in the machine learning literature", "We tested 15 different resampling procedures on 121 binary classification data sets in order to select the best SVM hyperparameters", "We used three very different statistical procedures to analyse the results: the standard multi- classifier/multi-data set procedure proposed by Dem\\v{s}ar, the confidence intervals on the excess loss of each procedure in relation to 5-fold cross validation, and the Bayes factor analysis proposed by Barber", "We conclude that a 2-fold procedure is appropriate to select the hyperparameters of an SVM for data sets for 1000 or more datapoints, while a 3-fold procedure is appropriate for smaller data sets"]]
+[8, 2, []]

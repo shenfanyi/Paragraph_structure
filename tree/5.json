@@ -1,0 +1,27 @@
+Information criteria have been popularly used in model selection
+and proved to possess nice theoretical properties. For
+classification, Claeskens et al. (2880) proposed support vector
+machine information criterion for feature selection and provided
+encouraging numerical evidence. Yet no theoretical justification
+was given there. This work aims to fill the gap and to provide
+some theoretical justifications for support vector machine
+information criterion in both fixed and diverging model spaces.
+We first derive a uniform convergence rate for the support
+vector machine solution and then show that a modification of the
+support vector machine information criterion achieves model
+selection consistency even when the number of features diverges
+at an exponential rate of the sample size. This consistency
+result can be further applied to selecting the optimal tuning
+parameter for various penalized support vector machine methods.
+Finite-sample performance of the proposed information criterion
+is investigated using Monte Carlo studies and one real-world
+gene selection problem.
+
+[5, 2, []]
+[1, 1, []]
+[8, 2, []]
+[1, 1, ["Yet no theoretical justification was given there"]]
+[10, 2, []]
+[21, 1, ["Information criteria have been popularly used in model selection and proved to possess nice theoretical properties", "(2880) proposed support vector machine information criterion for feature selection and provided encouraging numerical evidence", "This work aims to fill the gap and to provide some theoretical justifications for support vector machine information criterion in both fixed and diverging model spaces", "We first derive a uniform convergence rate for the support vector machine solution and then show that a modification of the support vector machine information criterion achieves model selection consistency even when the number of features diverges at an exponential rate of the sample size", "This consistency result can be further applied to selecting the optimal tuning parameter for various penalized support vector machine methods", "Finite-sample performance of the proposed information criterion is investigated using Monte Carlo studies and one real-world gene selection problem"]]
+[8, 2, []]
+[9, 2, []]

@@ -1,0 +1,15 @@
+We formulate a new variant of the problem of planning in an
+unknown environment, for which we can provide algorithms with
+reasonable theoretical guarantees in spite of large state spaces
+and time horizons, partial observability, and complex dynamics.
+In this variant, an agent is given a collection of example
+traces produced by a reference policy, which may, for example,
+capture the agent's past behavior. The agent is (only) asked to
+find policies that are supported by regularities in the dynamics
+that are observable on these example traces. We describe an
+efficient algorithm that uses such 
+
+[13, 1, ["We formulate a new variant of the problem of planning in an unknown environment, for which we can provide algorithms with reasonable theoretical guarantees in spite of large state spaces and time horizons, partial observability, and complex dynamics", "In this variant, an agent is given a collection of example traces produced by a reference policy, which may, for example, capture the agent's past behavior", "The agent is (only) asked to find policies that are supported by regularities in the dynamics that are observable on these example traces"]]
+[10, 2, []]
+[6, 2, []]
+[1, 2, []]

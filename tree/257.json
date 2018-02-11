@@ -1,0 +1,10 @@
+The R package GFA provides a full pipeline for factor analysis
+of multiple data sources that are represented as matrices with
+co-occurring samples. It allows learning dependencies between
+subsets of the data sources, decomposed into latent factors. The
+package also implements sparse priors for the factorization,
+providing interpretable biclusters of the multi-source data.
+
+[10, 1, ["The R package GFA provides a full pipeline for factor analysis of multiple data sources that are represented as matrices with co-occurring samples", "It allows learning dependencies between subsets of the data sources, decomposed into latent factors", "The package also implements sparse priors for the factorization, providing interpretable biclusters of the multi-source data"]]
+[6, 2, []]
+[6, 2, []]

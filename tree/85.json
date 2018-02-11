@@ -1,0 +1,15 @@
+We study the Bayesian model averaging approach to learning
+Bayesian network structures (DAGs) from data. We develop new
+algorithms including the first algorithm that is able to
+efficiently sample DAGs of a moderate size (with up to about 25
+variables) according to the exact structure posterior. The DAG
+samples can then be used to construct estimators for the
+posterior of any feature. We theoretically prove good properties
+of our estimators and empirically show that our estimators
+considerably outperform the estimators from the previous state-
+of-the-art methods.
+
+[7, 1, []]
+[7, 1, []]
+[5, 2, []]
+[7, 1, ["The DAG samples can then be used to construct estimators for the posterior of any feature", "We theoretically prove good properties of our estimators and empirically show that our estimators considerably outperform the estimators from the previous state- of-the-art methods"]]

@@ -1,0 +1,22 @@
+There is a large literature explaining why AdaBoost is a
+successful classifier. The literature on AdaBoost focuses on
+classifier margins and boosting's interpretation as the
+optimization of an exponential likelihood function. These
+existing explanations, however, have been pointed out to be
+incomplete. A random forest is another popular ensemble method
+for which there is substantially less explanation in the
+literature. We introduce a novel perspective on AdaBoost and
+random forests that proposes that the two algorithms work for
+similar reasons. While both classifiers achieve similar
+predictive accuracy, random forests cannot be conceived as a
+direct optimization procedure. Rather, random forests is a self-
+averaging, interpolating algorithm which creates what we denote
+as a 
+
+[2, 2, []]
+[6, 1, ["There is a large literature explaining why AdaBoost is a successful classifier", "The literature on AdaBoost focuses on classifier margins and boosting's interpretation as the optimization of an exponential likelihood function", "A random forest is another popular ensemble method for which there is substantially less explanation in the literature", "While both classifiers achieve similar predictive accuracy, random forests cannot be conceived as a direct optimization procedure"]]
+[1, 2, []]
+[4, 2, []]
+[5, 1, []]
+[5, 1, ["We introduce a novel perspective on AdaBoost and random forests that proposes that the two algorithms work for similar reasons", "Rather, random forests is a self- averaging, interpolating algorithm which creates what we denote as a"]]
+[4, 2, []]

@@ -1,0 +1,39 @@
+In this paper, we describe an unsupervised measure for
+quantifying the 'informativeness' of correlation matrices formed
+from the pairwise similarities or relationships among data
+instances. The measure quantifies the heterogeneity of the
+correlations and is defined as the distance between a
+correlation matrix and the nearest correlation matrix with
+constant off-diagonal entries. This non-parametric notion
+generalizes existing test statistics for equality of correlation
+coefficients by allowing for alternative distance metrics, such
+as the Bures and other distances from quantum information
+theory. For several distance and dissimilarity metrics, we
+derive closed-form expressions of informativeness, which can be
+applied as objective functions for machine learning
+applications. Empirically, we demonstrate that informativeness
+is a useful criterion for selecting kernel parameters, choosing
+the dimension for kernel-based nonlinear dimensionality
+reduction, and identifying structured graphs. We also consider
+the problem of finding a maximally informative correlation
+matrix around a target matrix, and explore parameterizing the
+optimization in terms of the coordinates of the sample or
+through a lower-dimensional embedding. In the latter case, we
+find that maximizing the Bures-based informativeness measure,
+which is maximal for centered rank-1 correlation matrices, is
+equivalent to minimizing a specific matrix norm, and present an
+algorithm to solve the minimization problem using the norm's
+proximal operator. The proposed correlation denoising algorithm
+consistently improves spectral clustering. Overall, we find
+informativeness to be a novel and useful criterion for
+identifying non-trivial correlation structure.
+
+[10, 2, []]
+[9, 2, []]
+[12, 2, []]
+[10, 2, []]
+[9, 2, []]
+[10, 2, []]
+[13, 1, ["In this paper, we describe an unsupervised measure for quantifying the 'informativeness' of correlation matrices formed from the pairwise similarities or relationships among data instances", "The measure quantifies the heterogeneity of the correlations and is defined as the distance between a correlation matrix and the nearest correlation matrix with constant off-diagonal entries", "This non-parametric notion generalizes existing test statistics for equality of correlation coefficients by allowing for alternative distance metrics, such as the Bures and other distances from quantum information theory", "For several distance and dissimilarity metrics, we derive closed-form expressions of informativeness, which can be applied as objective functions for machine learning applications", "Empirically, we demonstrate that informativeness is a useful criterion for selecting kernel parameters, choosing the dimension for kernel-based nonlinear dimensionality reduction, and identifying structured graphs", "We also consider the problem of finding a maximally informative correlation matrix around a target matrix, and explore parameterizing the optimization in terms of the coordinates of the sample or through a lower-dimensional embedding", "In the latter case, we find that maximizing the Bures-based informativeness measure, which is maximal for centered rank-1 correlation matrices, is equivalent to minimizing a specific matrix norm, and present an algorithm to solve the minimization problem using the norm's proximal operator", "The proposed correlation denoising algorithm consistently improves spectral clustering", "Overall, we find informativeness to be a novel and useful criterion for identifying non-trivial correlation structure"]]
+[3, 2, []]
+[4, 2, []]

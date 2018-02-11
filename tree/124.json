@@ -1,0 +1,25 @@
+In this paper we propose a new algorithm to perform clustering
+of multivariate and functional data. We study the case of two
+populations different in their covariances, rather than in their
+means. The algorithm relies on a proper quantification of
+distance between the estimated covariance operators of the
+populations, and subdivides data in two groups maximising the
+distance between their induced covariances. The naive
+implementation of such an algorithm is computationally
+forbidding, so we propose a heuristic formulation with a much
+lighter complexity and we study its convergence properties,
+along with its computational cost. We also propose to use an
+enhanced estimator for the estimation of discrete covariances of
+functional data, namely a linear shrinkage estimator, in order
+to improve the precision of the clustering. We establish the
+effectiveness of our algorithm through applications to both
+synthetic data and a real data set coming from a biomedical
+context, showing also how the use of shrinkage estimation may
+lead to substantially better results.
+
+[5, 2, []]
+[4, 2, []]
+[10, 1, []]
+[7, 2, []]
+[9, 2, []]
+[10, 1, ["In this paper we propose a new algorithm to perform clustering of multivariate and functional data", "The algorithm relies on a proper quantification of distance between the estimated covariance operators of the populations, and subdivides data in two groups maximising the distance between their induced covariances", "The naive implementation of such an algorithm is computationally forbidding, so we propose a heuristic formulation with a much lighter complexity and we study its convergence properties, along with its computational cost", "We also propose to use an enhanced estimator for the estimation of discrete covariances of functional data, namely a linear shrinkage estimator, in order to improve the precision of the clustering", "We establish the effectiveness of our algorithm through applications to both synthetic data and a real data set coming from a biomedical context, showing also how the use of shrinkage estimation may lead to substantially better results"]]

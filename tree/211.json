@@ -1,0 +1,18 @@
+We introduce a novel scheme for choosing the regularization
+parameter in high-dimensional linear  regression with Lasso.
+This scheme, inspired by Lepski’s method for bandwidth selection
+in non-parametric  regression, is equipped with both optimal
+finite-sample guarantees and a fast algorithm. In particular,
+for any design matrix such that the Lasso has low sup-norm error
+under an “oracle choice” of the  regularization parameter, we
+show that our method matches the oracle performance up to a
+small constant factor,  and show that it can be implemented by
+performing simple tests along a single Lasso path. By applying
+the  Lasso to simulated and real data, we find that our novel
+scheme can be faster and more accurate than  standard schemes
+such as Cross-Validation.
+
+[5, 2, []]
+[8, 2, []]
+[14, 1, ["We introduce a novel scheme for choosing the regularization parameter in high-dimensional linear  regression with Lasso", "This scheme, inspired by Lepski\u2019s method for bandwidth selection in non-parametric  regression, is equipped with both optimal finite-sample guarantees and a fast algorithm", "In particular, for any design matrix such that the Lasso has low sup-norm error under an \u201coracle choice\u201d of the  regularization parameter, we show that our method matches the oracle performance up to a small constant factor,  and show that it can be implemented by performing simple tests along a single Lasso path"]]
+[3, 2, []]

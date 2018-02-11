@@ -1,0 +1,14 @@
+Multi-label classification has rapidly attracted interest in the
+machine learning literature, and there are now a large number
+and considerable variety of methods for this type of learning.
+We present MEKA: an open-source Java framework based on the
+well-known WEKA library. MEKA provides interfaces to facilitate
+practical application, and a wealth of multi-label classifiers,
+evaluation metrics, and tools for multi-label experiments and
+development. It supports multi-label and multi-target data,
+including in incremental and semi- supervised contexts.
+
+[10, 2, []]
+[4, 2, []]
+[11, 1, ["Multi-label classification has rapidly attracted interest in the machine learning literature, and there are now a large number and considerable variety of methods for this type of learning", "MEKA provides interfaces to facilitate practical application, and a wealth of multi-label classifiers, evaluation metrics, and tools for multi-label experiments and development", "It supports multi-label and multi-target data, including in incremental and semi- supervised contexts"]]
+[5, 2, []]

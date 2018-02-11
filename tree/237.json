@@ -1,0 +1,35 @@
+We consider neural networks with a single hidden layer and non-
+decreasing positively homogeneous activation functions like the
+rectified linear units. By letting the number of hidden units
+grow unbounded and using classical non-Euclidean regularization
+tools on the output weights, they lead to a convex optimization
+problem and we provide a detailed theoretical analysis of their
+generalization performance, with a study of both the
+approximation and the estimation errors. We show in particular
+that they are adaptive to unknown underlying linear structures,
+such as the dependence on the projection of the input variables
+onto a low-dimensional subspace. Moreover, when using sparsity-
+inducing norms on the input weights, we show that high-
+dimensional non-linear variable selection may be achieved,
+without any strong assumption regarding the data and with a
+total number of variables potentially exponential in the number
+of observations. However, solving this convex optimization
+problem in infinite dimensions is only possible if the non-
+convex subproblem of addition of a new unit can be solved
+efficiently. We provide a simple geometric interpretation for
+our choice of activation functions and describe simple
+conditions for convex relaxations of the finite-dimensional non-
+convex subproblem to achieve the same generalization error
+bounds, even when constant-factor approximations cannot be
+found. We were not able to find strong enough convex relaxations
+to obtain provably polynomial-time algorithms and leave open the
+existence or non-existence of such tractable algorithms with
+non-exponential sample complexities.
+
+[5, 2, []]
+[16, 1, ["We consider neural networks with a single hidden layer and non- decreasing positively homogeneous activation functions like the rectified linear units", "By letting the number of hidden units grow unbounded and using classical non-Euclidean regularization tools on the output weights, they lead to a convex optimization problem and we provide a detailed theoretical analysis of their generalization performance, with a study of both the approximation and the estimation errors", "Moreover, when using sparsity- inducing norms on the input weights, we show that high- dimensional non-linear variable selection may be achieved, without any strong assumption regarding the data and with a total number of variables potentially exponential in the number of observations", "However, solving this convex optimization problem in infinite dimensions is only possible if the non- convex subproblem of addition of a new unit can be solved efficiently", "We provide a simple geometric interpretation for our choice of activation functions and describe simple conditions for convex relaxations of the finite-dimensional non- convex subproblem to achieve the same generalization error bounds, even when constant-factor approximations cannot be found", "We were not able to find strong enough convex relaxations to obtain provably polynomial-time algorithms and leave open the existence or non-existence of such tractable algorithms with non-exponential sample complexities"]]
+[6, 2, []]
+[12, 2, []]
+[8, 2, []]
+[13, 2, []]
+[10, 2, []]

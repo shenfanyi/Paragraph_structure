@@ -1,0 +1,21 @@
+Learning control has become an appealing alternative to the
+derivation of control laws based on classic control theory.
+However, a major shortcoming of learning control is the lack of
+performance guarantees which prevents its application in many
+real-world scenarios. As a step towards widespread deployment of
+learning control, we provide stability analysis tools for
+controllers acting on dynamics represented by Gaussian processes
+(GPs). We consider differentiable Markovian control policies and
+system dynamics given as (i) the mean of a GP, and (ii) the full
+GP distribution. For both cases, we analyze finite and infinite
+time horizons. Furthermore, we study the effect of disturbances
+on the stability results. Empirical evaluations on simulated
+benchmark problems support our theoretical results.
+
+[7, 2, []]
+[8, 2, []]
+[10, 1, ["Learning control has become an appealing alternative to the derivation of control laws based on classic control theory", "However, a major shortcoming of learning control is the lack of performance guarantees which prevents its application in many real-world scenarios", "As a step towards widespread deployment of learning control, we provide stability analysis tools for controllers acting on dynamics represented by Gaussian processes (GPs)", "We consider differentiable Markovian control policies and system dynamics given as (i) the mean of a GP, and (ii) the full GP distribution", "Furthermore, we study the effect of disturbances on the stability results"]]
+[7, 2, []]
+[3, 2, []]
+[4, 1, []]
+[4, 1, ["Empirical evaluations on simulated benchmark problems support our theoretical results"]]

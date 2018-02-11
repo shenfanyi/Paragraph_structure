@@ -1,0 +1,12 @@
+We provide an information-theoretic analysis of Thompson
+sampling that applies across a broad range of online
+optimization problems in which a decision-maker must learn from
+partial feedback. This analysis inherits the simplicity and
+elegance of information theory and leads to regret bounds that
+scale with the entropy of the optimal-action distribution. This
+strengthens preexisting results and yields new insight into how
+information improves performance.
+
+[8, 2, []]
+[10, 1, ["We provide an information-theoretic analysis of Thompson sampling that applies across a broad range of online optimization problems in which a decision-maker must learn from partial feedback", "This analysis inherits the simplicity and elegance of information theory and leads to regret bounds that scale with the entropy of the optimal-action distribution", "This strengthens preexisting results and yields new insight into how information improves performance"]]
+[5, 2, []]

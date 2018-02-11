@@ -1,0 +1,12 @@
+In many applications, not all the features used to represent
+data samples are important. Often only a few features are
+relevant for the prediction task. The choice of dependence
+measures often affect the final result of many feature selection
+methods. To select features that have complex nonlinear
+relationships with the response variable, the dependence measure
+should be 
+
+[4, 1, ["In many applications, not all the features used to represent data samples are important", "Often only a few features are relevant for the prediction task"]]
+[3, 2, []]
+[7, 1, ["The choice of dependence measures often affect the final result of many feature selection methods", "To select features that have complex nonlinear relationships with the response variable, the dependence measure should be"]]
+[6, 2, []]

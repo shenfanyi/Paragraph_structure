@@ -1,0 +1,15 @@
+We use a geometric digraph family called class cover catch
+digraphs (CCCDs) to tackle the class imbalance problem in
+statistical classification. CCCDs provide graph theoretic
+solutions to the class cover problem and have been employed in
+classification. We assess the classification performance of CCCD
+classifiers by extensive Monte Carlo simulations, comparing them
+with other classifiers commonly used in the literature. In
+particular, we show that CCCD classifiers perform relatively
+well when one class is more frequent than the other in a two-
+class setting, an example of the 
+
+[10, 1, ["We use a geometric digraph family called class cover catch digraphs (CCCDs) to tackle the class imbalance problem in statistical classification", "CCCDs provide graph theoretic solutions to the class cover problem and have been employed in classification", "We assess the classification performance of CCCD classifiers by extensive Monte Carlo simulations, comparing them with other classifiers commonly used in the literature", "In particular, we show that CCCD classifiers perform relatively well when one class is more frequent than the other in a two- class setting, an example of the"]]
+[7, 2, []]
+[6, 2, []]
+[5, 2, []]

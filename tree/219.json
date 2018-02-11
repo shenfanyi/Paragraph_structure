@@ -1,0 +1,25 @@
+This paper presents the Averaged CVB (ACVB) inference and offers
+convergence-guaranteed and practically useful fast Collapsed
+Variational Bayes (CVB) inferences. CVB inferences yield more
+precise inferences of Bayesian probabilistic models than
+Variational Bayes (VB) inferences. However, their convergence
+aspect is fairly unknown and has not been scrutinized. To make
+CVB more useful, we study their convergence behaviors in a
+empirical and practical approach. We develop a convergence-
+guaranteed algorithm for any CVB-based inference called ACVB,
+which enables automatic convergence detection and frees non-
+expert practitioners from the difficult and costly manual
+monitoring of inference processes. In experiments, ACVB
+inferences are comparable to or better than those of existing
+inference methods and deterministic, fast, and provide easier
+convergence detection. These features are especially convenient
+for practitioners who want precise Bayesian inference with
+assured convergence.
+
+[4, 2, []]
+[4, 2, []]
+[2, 2, []]
+[3, 2, []]
+[9, 1, ["This paper presents the Averaged CVB (ACVB) inference and offers convergence-guaranteed and practically useful fast Collapsed Variational Bayes (CVB) inferences", "However, their convergence aspect is fairly unknown and has not been scrutinized", "To make CVB more useful, we study their convergence behaviors in a empirical and practical approach", "We develop a convergence- guaranteed algorithm for any CVB-based inference called ACVB, which enables automatic convergence detection and frees non- expert practitioners from the difficult and costly manual monitoring of inference processes", "In experiments, ACVB inferences are comparable to or better than those of existing inference methods and deterministic, fast, and provide easier convergence detection", "These features are especially convenient for practitioners who want precise Bayesian inference with assured convergence"]]
+[6, 2, []]
+[5, 2, []]

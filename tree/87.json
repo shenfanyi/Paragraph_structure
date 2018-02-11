@@ -1,0 +1,14 @@
+The future predictive performance of a Bayesian model can be
+estimated using Bayesian cross-validation. In this article, we
+consider Gaussian latent variable models where the integration
+over the latent values is approximated using the Laplace method
+or expectation propagation (EP). We study the properties of
+several Bayesian leave-one-out (LOO) cross-validation
+approximations that in most cases can be computed with a small
+additional cost after forming the posterior approximation given
+the full data. Our main objective is to assess the 
+
+[4, 2, []]
+[8, 1, ["In this article, we consider Gaussian latent variable models where the integration over the latent values is approximated using the Laplace method or expectation propagation (EP)"]]
+[9, 1, ["The future predictive performance of a Bayesian model can be estimated using Bayesian cross-validation", "We study the properties of several Bayesian leave-one-out (LOO) cross-validation approximations that in most cases can be computed with a small additional cost after forming the posterior approximation given the full data"]]
+[1, 2, []]

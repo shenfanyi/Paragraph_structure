@@ -1,0 +1,20 @@
+In a wide range of statistical learning problems such as
+ranking, clustering or metric learning among others, the risk is
+accurately estimated by $U$-statistics of degree $d\geq 1$, i.e.
+functionals of the training data with low variance that take the
+form of averages over $k$-tuples. From a computational
+perspective, the calculation of such statistics is highly
+expensive even for a moderate sample size $n$, as it requires
+averaging $O(n^d)$ terms. This makes learning procedures relying
+on the optimization of such data functionals hardly feasible in
+practice. It is the major goal of this paper to show that,
+strikingly, such empirical risks can be replaced by drastically
+computationally simpler Monte-Carlo estimates based on $O(n)$
+terms only, usually referred to as 
+
+[9, 1, ["In a wide range of statistical learning problems such as ranking, clustering or metric learning among others, the risk is accurately estimated by $U$-statistics of degree $d\\geq 1$, i"]]
+[0, 2, []]
+[7, 1, []]
+[7, 1, ["From a computational perspective, the calculation of such statistics is highly expensive even for a moderate sample size $n$, as it requires averaging $O(n^d)$ terms", "It is the major goal of this paper to show that, strikingly, such empirical risks can be replaced by drastically computationally simpler Monte-Carlo estimates based on $O(n)$ terms only, usually referred to as"]]
+[5, 2, []]
+[5, 2, []]

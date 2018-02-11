@@ -1,0 +1,34 @@
+Multilayer networks are a useful way to capture and model
+multiple, binary or weighted relationships among a fixed group
+of objects. While community detection has proven to be a useful
+exploratory technique for the analysis of single-layer networks,
+the development of community detection methods for multilayer
+networks is still in its infancy. We propose and investigate a
+procedure, called Multilayer Extraction, that identifies densely
+connected vertex-layer sets in multilayer networks. Multilayer
+Extraction makes use of a significance based score that
+quantifies the connectivity of an observed vertex-layer set
+through comparison with a fixed degree random graph model.
+Multilayer Extraction directly handles networks with
+heterogeneous layers where community structure may be different
+from layer to layer. The procedure can capture overlapping
+communities, as well as background vertex-layer pairs that do
+not belong to any community. We establish consistency of the
+vertex-layer set optimizer of our proposed multilayer score
+under the multilayer stochastic block model. We investigate the
+performance of Multilayer Extraction on three applications and a
+test bed of simulations. Our theoretical and numerical
+evaluations suggest that Multilayer Extraction is an effective
+exploratory tool for analyzing complex multilayer networks.
+Publicly available code is available at 
+
+[8, 2, []]
+[13, 1, ["Multilayer networks are a useful way to capture and model multiple, binary or weighted relationships among a fixed group of objects", "While community detection has proven to be a useful exploratory technique for the analysis of single-layer networks, the development of community detection methods for multilayer networks is still in its infancy", "We propose and investigate a procedure, called Multilayer Extraction, that identifies densely connected vertex-layer sets in multilayer networks", "Multilayer Extraction makes use of a significance based score that quantifies the connectivity of an observed vertex-layer set through comparison with a fixed degree random graph model", "Multilayer Extraction directly handles networks with heterogeneous layers where community structure may be different from layer to layer", "The procedure can capture overlapping communities, as well as background vertex-layer pairs that do not belong to any community", "We establish consistency of the vertex-layer set optimizer of our proposed multilayer score under the multilayer stochastic block model", "Our theoretical and numerical evaluations suggest that Multilayer Extraction is an effective exploratory tool for analyzing complex multilayer networks"]]
+[6, 2, []]
+[11, 2, []]
+[6, 2, []]
+[7, 2, []]
+[9, 2, []]
+[5, 1, ["We investigate the performance of Multilayer Extraction on three applications and a test bed of simulations"]]
+[4, 2, []]
+[1, 2, []]

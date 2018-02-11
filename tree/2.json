@@ -1,0 +1,24 @@
+In Markov decision processes (MDPs), the variance of the reward-
+to-go is a natural measure of uncertainty about the long term
+performance of a policy, and is important in domains such as
+finance, resource allocation, and process control. Currently
+however, there is no tractable procedure for calculating it in
+large scale MDPs. This is in contrast to the case of the
+expected reward-to-go, also known as the value function, for
+which effective simulation-based algorithms are known, and have
+been used successfully in various domains. In this paper we
+extend temporal difference (TD) learning algorithms to
+estimating the variance of the reward-to- go for a fixed policy.
+We propose variants of both TD(0) and LSTD($\lambda$) with
+linear function approximation, prove their convergence, and
+demonstrate their utility in an option pricing problem. Our
+results show a dramatic improvement in terms of sample
+efficiency over standard Monte-Carlo methods, which are
+currently the state-of-the-art.
+
+[15, 1, ["In Markov decision processes (MDPs), the variance of the reward- to-go is a natural measure of uncertainty about the long term performance of a policy, and is important in domains such as finance, resource allocation, and process control", "This is in contrast to the case of the expected reward-to-go, also known as the value function, for which effective simulation-based algorithms are known, and have been used successfully in various domains", "In this paper we extend temporal difference (TD) learning algorithms to estimating the variance of the reward-to- go for a fixed policy"]]
+[3, 2, []]
+[8, 1, []]
+[9, 2, []]
+[8, 1, []]
+[8, 1, ["Our results show a dramatic improvement in terms of sample efficiency over standard Monte-Carlo methods, which are currently the state-of-the-art"]]

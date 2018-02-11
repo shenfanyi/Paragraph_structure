@@ -1,0 +1,15 @@
+We introduce Refinery, an open source platform for exploring
+large text document collections with topic models. Refinery is a
+standalone web application driven by a graphical interface, so
+it is usable by those without machine learning or programming
+expertise. Users can interactively organize articles by topic
+and also refine this organization with phrase-level analysis.
+Under the hood, we train Bayesian nonparametric topic models
+that can adapt model complexity to the provided data with
+scalable learning algorithms.  
+
+[7, 1, []]
+[9, 1, ["Refinery is a standalone web application driven by a graphical interface, so it is usable by those without machine learning or programming expertise"]]
+[7, 1, []]
+[7, 1, ["We introduce Refinery, an open source platform for exploring large text document collections with topic models", "Users can interactively organize articles by topic and also refine this organization with phrase-level analysis", "Under the hood, we train Bayesian nonparametric topic models that can adapt model complexity to the provided data with scalable learning algorithms"]]
+[0, 2, []]

@@ -1,0 +1,18 @@
+Obtaining a non-parametric expression for an interventional
+distribution is one of the most fundamental tasks in causal
+inference. Such an expression can be obtained for an
+identifiable causal effect by an algorithm or by manual
+application of do-calculus. Often we are left with a complicated
+expression which can lead to biased or inefficient estimates
+when missing data or measurement errors are involved. We present
+an automatic simplification algorithm that seeks to eliminate
+symbolically unnecessary variables from these expressions by
+taking advantage of the structure of the underlying graphical
+model. Our method is applicable to all causal effect formulas
+and is readily available in the R package causaleffect.
+
+[4, 2, []]
+[6, 1, []]
+[5, 2, []]
+[7, 1, ["Such an expression can be obtained for an identifiable causal effect by an algorithm or by manual application of do-calculus", "We present an automatic simplification algorithm that seeks to eliminate symbolically unnecessary variables from these expressions by taking advantage of the structure of the underlying graphical model"]]
+[6, 1, ["Our method is applicable to all causal effect formulas and is readily available in the R package causaleffect"]]

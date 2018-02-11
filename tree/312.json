@@ -1,0 +1,12 @@
+Many applications, such as human action recognition and object
+detection, can be formulated as a multiclass classification
+problem. One-vs-rest (OVR) is one of the most widely used
+approaches for multiclass classification due to its simplicity
+and excellent performance. However, many confusing classes in
+such applications will degrade its results. For example,
+
+
+[8, 1, ["Many applications, such as human action recognition and object detection, can be formulated as a multiclass classification problem", "One-vs-rest (OVR) is one of the most widely used approaches for multiclass classification due to its simplicity and excellent performance", "However, many confusing classes in such applications will degrade its results"]]
+[6, 2, []]
+[3, 2, []]
+[1, 2, []]

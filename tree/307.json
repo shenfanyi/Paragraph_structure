@@ -1,0 +1,17 @@
+This article describes the Multiagent Decision Process (MADP)
+Toolbox, a software library to support planning and learning for
+intelligent agents and multiagent systems in uncertain
+environments. Key features are that it supports partially
+observable environments and stochastic transition models; has
+unified support for single- and multiagent systems; provides a
+large number of models for decision-theoretic decision making,
+including one-shot and sequential decision making under various
+assumptions of observability and cooperation, such as Dec-POMDPs
+and POSGs; provides tools and parsers to quickly prototype new
+problems; provides an extensive range of planning and learning
+algorithms for single- and multiagent systems; is released under
+the GNU GPL v3 license; and is written in C++ and designed to be
+extensible via the object-oriented paradigm.
+
+[7, 2, []]
+[30, 1, ["This article describes the Multiagent Decision Process (MADP) Toolbox, a software library to support planning and learning for intelligent agents and multiagent systems in uncertain environments", "Key features are that it supports partially observable environments and stochastic transition models; has unified support for single- and multiagent systems; provides a large number of models for decision-theoretic decision making, including one-shot and sequential decision making under various assumptions of observability and cooperation, such as Dec-POMDPs and POSGs; provides tools and parsers to quickly prototype new problems; provides an extensive range of planning and learning algorithms for single- and multiagent systems; is released under the GNU GPL v3 license; and is written in C++ and designed to be extensible via the object-oriented paradigm"]]

@@ -1,0 +1,31 @@
+We present a novel analysis of the dynamics of tensor power
+iterations in the overcomplete regime where the tensor CP rank
+is larger than the input dimension. Finding the CP decomposition
+of an overcomplete tensor is NP-hard in general. We consider the
+case where the tensor components are randomly drawn, and show
+that the simple power iteration recovers the components with
+bounded error under mild initialization conditions. We apply our
+analysis to unsupervised learning of latent variable models,
+such as multi-view mixture models and spherical Gaussian
+mixtures. Given the third order moment tensor, we learn the
+parameters using tensor power iterations. We prove it can
+correctly learn the model parameters when the number of hidden
+components $k$ is much larger than the data dimension $d$, up to
+$k = o(d^{1.5})$. We initialize the power iterations with data
+samples and prove its success under mild conditions on the
+signal-to-noise ratio of the samples. Our analysis significantly
+expands the class of latent variable models where spectral
+methods are applicable. Our analysis also deals with noise in
+the input tensor leading to sample complexity result in the
+application to learning latent variable models.
+
+[10, 1, []]
+[3, 2, []]
+[9, 2, []]
+[7, 1, []]
+[7, 1, ["Finding the CP decomposition of an overcomplete tensor is NP-hard in general"]]
+[9, 2, []]
+[0, 2, []]
+[10, 1, ["We present a novel analysis of the dynamics of tensor power iterations in the overcomplete regime where the tensor CP rank is larger than the input dimension", "We consider the case where the tensor components are randomly drawn, and show that the simple power iteration recovers the components with bounded error under mild initialization conditions", "Given the third order moment tensor, we learn the parameters using tensor power iterations", "We prove it can correctly learn the model parameters when the number of hidden components $k$ is much larger than the data dimension $d$, up to $k = o(d^{1", "We initialize the power iterations with data samples and prove its success under mild conditions on the signal-to-noise ratio of the samples", "Our analysis also deals with noise in the input tensor leading to sample complexity result in the application to learning latent variable models"]]
+[4, 2, []]
+[8, 2, []]

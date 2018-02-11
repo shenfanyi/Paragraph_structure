@@ -1,0 +1,34 @@
+We study a set of regularization methods for high-dimensional
+linear regression models. These penalized estimators have the
+square root of the residual sum of squared errors as loss
+function, and any weakly decomposable norm as penalty function.
+This fit measure is chosen because of its property that the
+estimator does not depend on the unknown standard deviation of
+the noise. On the other hand, a generalized weakly decomposable
+norm penalty is very useful in being able to deal with different
+underlying sparsity structures. We can choose a different
+sparsity inducing norm depending on how we want to interpret the
+unknown parameter vector $\beta$. Structured sparsity norms, as
+defined in Micchelli et al. (2010), are special cases of weakly
+decomposable norms, therefore we also include the square root
+LASSO (Belloni et al., 2011), the group square root LASSO (Bunea
+et al., 2014) and a new method called the square root SLOPE (in
+a similar fashion to the SLOPE from Bogdan et al. 2015). For
+this collection of estimators our results provide sharp oracle
+inequalities with the Karush-Kuhn-Tucker conditions. We discuss
+some examples of estimators. Based on a simulation we illustrate
+some advantages of the square root SLOPE.
+
+[5, 1, []]
+[9, 1, ["These penalized estimators have the square root of the residual sum of squared errors as loss function, and any weakly decomposable norm as penalty function", "On the other hand, a generalized weakly decomposable norm penalty is very useful in being able to deal with different underlying sparsity structures", "We can choose a different sparsity inducing norm depending on how we want to interpret the unknown parameter vector $\\beta$", "(2010), are special cases of weakly decomposable norms, therefore we also include the square root LASSO (Belloni et al", ", 2011), the group square root LASSO (Bunea et al", ", 2014) and a new method called the square root SLOPE (in a similar fashion to the SLOPE from Bogdan et al", "For this collection of estimators our results provide sharp oracle inequalities with the Karush-Kuhn-Tucker conditions", "We discuss some examples of estimators", "Based on a simulation we illustrate some advantages of the square root SLOPE"]]
+[5, 1, []]
+[5, 1, []]
+[5, 1, ["Structured sparsity norms, as defined in Micchelli et al"]]
+[2, 2, []]
+[4, 2, []]
+[2, 2, []]
+[3, 2, []]
+[0, 2, []]
+[6, 2, []]
+[2, 2, []]
+[3, 2, []]

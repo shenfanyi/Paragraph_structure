@@ -1,0 +1,14 @@
+The proliferation of electronic health records (EHRs) frames
+opportunities for using machine learning to build models that
+help healthcare providers improve patient outcomes. However,
+building useful risk stratification models presents many
+technical challenges including the large number of factors (both
+intrinsic and extrinsic) influencing a patient's risk of an
+adverse outcome and the inherent evolution of that risk over
+time. We address these challenges in the context of learning a
+risk stratification model for predicting which patients are at
+risk of acquiring a 
+
+[11, 2, []]
+[13, 1, ["The proliferation of electronic health records (EHRs) frames opportunities for using machine learning to build models that help healthcare providers improve patient outcomes", "However, building useful risk stratification models presents many technical challenges including the large number of factors (both intrinsic and extrinsic) influencing a patient's risk of an adverse outcome and the inherent evolution of that risk over time", "We address these challenges in the context of learning a risk stratification model for predicting which patients are at risk of acquiring a"]]
+[7, 2, []]

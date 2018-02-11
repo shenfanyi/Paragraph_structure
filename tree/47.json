@@ -1,0 +1,14 @@
+We derive two convergence results for a sequential alternating
+maximization procedure to approximate the maximizer of random
+functionals such as the realized log likelihood in MLE
+estimation. We manage to show that the sequence attains the same
+deviation properties as shown for the profile M-estimator by
+Andresen and Spokoiny (2013), that means a finite sample Wilks
+and Fisher theorem. Further under slightly stronger smoothness
+constraints on the random functional we can show nearly linear
+convergence to the global maximizer if the starting point for
+the procedure is well chosen.
+
+[9, 1, ["We derive two convergence results for a sequential alternating maximization procedure to approximate the maximizer of random functionals such as the realized log likelihood in MLE estimation", "Further under slightly stronger smoothness constraints on the random functional we can show nearly linear convergence to the global maximizer if the starting point for the procedure is well chosen"]]
+[8, 2, []]
+[7, 2, []]

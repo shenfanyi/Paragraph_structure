@@ -1,0 +1,26 @@
+Probabilistic modeling is iterative. A scientist posits a simple
+model, fits it to her data, refines it according to her
+analysis, and repeats. However, fitting complex models to large
+data is a bottleneck in this process. Deriving algorithms for
+new models can be both mathematically and computationally
+challenging, which makes it difficult to efficiently cycle
+through the steps. To this end, we develop ADVI. Using our
+method, the scientist only provides a probabilistic model and a
+dataset, nothing else. ADVI automatically derives an efficient
+variational inference algorithm, freeing the scientist to refine
+and explore many models. ADVI supports a broad class of models
+---no conjugacy assumptions are required. We study ADVI across
+ten modern probabilistic models and apply it to a dataset with
+millions of observations. We deploy ADVI as part of Stan, a
+probabilistic programming system.
+
+[1, 2, []]
+[5, 1, []]
+[4, 1, []]
+[3, 2, []]
+[1, 2, []]
+[5, 1, ["A scientist posits a simple model, fits it to her data, refines it according to her analysis, and repeats", "Using our method, the scientist only provides a probabilistic model and a dataset, nothing else", "ADVI automatically derives an efficient variational inference algorithm, freeing the scientist to refine and explore many models", "We study ADVI across ten modern probabilistic models and apply it to a dataset with millions of observations"]]
+[4, 1, []]
+[4, 1, []]
+[4, 1, ["However, fitting complex models to large data is a bottleneck in this process", "Deriving algorithms for new models can be both mathematically and computationally challenging, which makes it difficult to efficiently cycle through the steps", "ADVI supports a broad class of models ---no conjugacy assumptions are required"]]
+[3, 2, []]

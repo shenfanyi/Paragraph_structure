@@ -1,0 +1,26 @@
+We aim at recovering the weighted adjacency matrix $\mathsf{W}$ of an
+undirected graph from a perturbed version of its eigenspaces.
+This situation arises for instance when working with stationary
+signals on graphs or Markov chains observed at random times. Our
+approach relies on minimizing a cost function based on the
+Frobenius norm of the commutator $\mathsf{A}
+\mathsf{B}-\mathsf{B} \mathsf{A}$ between symmetric matrices
+$\mathsf{A}$ and $\mathsf{B}$. We describe a particular
+framework in which we have access to an estimation of the
+eigenspaces and provide support selection procedures from
+theoretical and practical points of view. In the Erdős-Rényi
+model on $N$ vertices with no self-loops, we show that
+identifiability (i.e., the ability to reconstruct $\mathsf{W}$
+from the knowledge of its eigenspaces) follows a sharp phase
+transition on the expected number of edges with threshold
+function $N\log N/2$. Simulated and real life numerical
+experiments assert our methodology.
+
+[6, 1, []]
+[6, 1, ["This situation arises for instance when working with stationary signals on graphs or Markov chains observed at random times"]]
+[7, 2, []]
+[9, 2, []]
+[5, 2, []]
+[0, 2, []]
+[10, 1, ["We aim at recovering the weighted adjacency matrix $\\mathsf{W}$ of an undirected graph from a perturbed version of its eigenspaces", "Our approach relies on minimizing a cost function based on the Frobenius norm of the commutator $\\mathsf{A} \\mathsf{B}-\\mathsf{B} \\mathsf{A}$ between symmetric matrices $\\mathsf{A}$ and $\\mathsf{B}$", "We describe a particular framework in which we have access to an estimation of the eigenspaces and provide support selection procedures from theoretical and practical points of view", ", the ability to reconstruct $\\mathsf{W}$ from the knowledge of its eigenspaces) follows a sharp phase transition on the expected number of edges with threshold function $N\\log N/2$"]]
+[3, 2, []]

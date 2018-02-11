@@ -1,0 +1,20 @@
+In this paper, we consider an infinite dimensional exponential
+family $\mathcal{P}$ of probability densities, which are
+parametrized by functions in a reproducing kernel Hilbert space
+$\mathcal{H}$, and show it to be quite rich in the sense that a
+broad class of densities on $\mathbb{R}^d$ can be approximated
+arbitrarily well in Kullback-Leibler (KL) divergence by elements
+in $\mathcal{P}$. Motivated by this approximation property, the
+paper addresses the question of estimating an unknown density
+$p_0$ through an element in $\mathcal{P}$. Standard techniques
+like maximum likelihood estimation (MLE) or pseudo MLE (based on
+the method of sieves), which are based on minimizing the KL
+divergence between $p_0$ and $\mathcal{P}$, do not yield
+practically useful estimators because of their inability to
+efficiently handle the log-partition function. We propose an
+estimator $\hat{p}_n$ based on minimizing the 
+
+[16, 1, ["In this paper, we consider an infinite dimensional exponential family $\\mathcal{P}$ of probability densities, which are parametrized by functions in a reproducing kernel Hilbert space $\\mathcal{H}$, and show it to be quite rich in the sense that a broad class of densities on $\\mathbb{R}^d$ can be approximated arbitrarily well in Kullback-Leibler (KL) divergence by elements in $\\mathcal{P}$", "Motivated by this approximation property, the paper addresses the question of estimating an unknown density $p_0$ through an element in $\\mathcal{P}$", "Standard techniques like maximum likelihood estimation (MLE) or pseudo MLE (based on the method of sieves), which are based on minimizing the KL divergence between $p_0$ and $\\mathcal{P}$, do not yield practically useful estimators because of their inability to efficiently handle the log-partition function"]]
+[7, 2, []]
+[13, 2, []]
+[2, 2, []]

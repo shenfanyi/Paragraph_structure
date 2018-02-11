@@ -18,7 +18,7 @@ class Paragraph(object):
         self.para_content = para_content
 
 
-    def cut_para_to_sents(self):
+    def cut_para_to_sents(self ):
         sents_raw = self.para_content.split('.')
 
         sents_handled = list()

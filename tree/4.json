@@ -1,0 +1,10 @@
+Matrix approximation is a common tool in recommendation systems,
+text mining, and computer vision. A prevalent assumption in
+constructing matrix approximations is that the partially
+observed matrix is low-rank. In this paper, we propose, analyze,
+and experiment with two procedures, one parallel and the other
+global, for constructing 
+
+[9, 1, ["Matrix approximation is a common tool in recommendation systems, text mining, and computer vision"]]
+[5, 1, ["A prevalent assumption in constructing matrix approximations is that the partially observed matrix is low-rank"]]
+[4, 2, []]

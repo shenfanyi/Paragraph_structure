@@ -1,0 +1,15 @@
+RLScore is a Python open source module for kernel based machine
+learning. The library provides implementations of several
+regularized least-squares (RLS) type of learners. RLS methods
+for regression and classification, ranking, greedy feature
+selection, multi-task and zero-shot learning, and unsupervised
+classification are included. Matrix algebra based computational
+short-cuts are used to ensure efficiency of both training and
+cross-validation. A simple API and extensive tutorials allow for
+easy use of RLScore.
+
+[5, 2, []]
+[5, 2, []]
+[9, 1, ["RLScore is a Python open source module for kernel based machine learning", "RLS methods for regression and classification, ranking, greedy feature selection, multi-task and zero-shot learning, and unsupervised classification are included"]]
+[7, 1, ["Matrix algebra based computational short-cuts are used to ensure efficiency of both training and cross-validation"]]
+[3, 2, []]

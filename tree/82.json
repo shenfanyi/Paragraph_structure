@@ -1,0 +1,24 @@
+In this paper, we study flat and hierarchical classification
+strategies in the context of large-scale taxonomies. Addressing
+the problem from a learning-theoretic point of view, we first
+propose a multi-class, hierarchical data dependent bound on the
+generalization error of classifiers deployed in large-scale
+taxonomies. This bound provides an explanation to several
+empirical results reported in the literature, related to the
+performance of flat and hierarchical classifiers. Based on this
+bound, we also propose a technique for modifying a given
+taxonomy through pruning, that leads to a lower value of the
+upper bound as compared to the original taxonomy. We then
+present another method for hierarchy pruning by studying
+approximation error of a family of classifiers, and derive from
+it features used in a meta-classifier to decide which nodes to
+prune. We finally illustrate the theoretical developments
+through several experiments conducted on two widely used
+taxonomies.
+
+[6, 2, []]
+[11, 1, ["In this paper, we study flat and hierarchical classification strategies in the context of large-scale taxonomies", "Addressing the problem from a learning-theoretic point of view, we first propose a multi-class, hierarchical data dependent bound on the generalization error of classifiers deployed in large-scale taxonomies", "This bound provides an explanation to several empirical results reported in the literature, related to the performance of flat and hierarchical classifiers", "We then present another method for hierarchy pruning by studying approximation error of a family of classifiers, and derive from it features used in a meta-classifier to decide which nodes to prune", "We finally illustrate the theoretical developments through several experiments conducted on two widely used taxonomies"]]
+[6, 2, []]
+[6, 2, []]
+[6, 2, []]
+[3, 2, []]

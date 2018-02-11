@@ -1,0 +1,31 @@
+Learning complex control policies from non-linear and redundant
+sensory input is an important challenge for reinforcement
+learning algorithms. Non-parametric methods that approximate
+values functions or transition models can address this problem,
+by adapting to the complexity of the data set. Yet, many current
+non-parametric approaches rely on unstable greedy maximization
+of approximate value functions, which might lead to poor
+convergence or oscillations in the policy update. A more robust
+policy update can be obtained by limiting the information loss
+between successive state-action distributions. In this paper, we
+develop a policy search algorithm with policy updates that are
+both robust and non-parametric. Our method can learn non-
+parametric control policies for infinite horizon continuous
+Markov decision processes with non-linear and redundant sensory
+representations. We investigate how we can use approximations of
+the kernel function to reduce the time requirements of the
+demanding non-parametric computations. In our experiments, we
+show the strong performance of the proposed method, and how it
+can be approximated efficiently. Finally, we show that our
+algorithm can learn a real-robot under-powered swing-up task
+directly from image data.
+
+[7, 1, []]
+[8, 1, []]
+[8, 1, ["Non-parametric methods that approximate values functions or transition models can address this problem, by adapting to the complexity of the data set", "Yet, many current non-parametric approaches rely on unstable greedy maximization of approximate value functions, which might lead to poor convergence or oscillations in the policy update", "A more robust policy update can be obtained by limiting the information loss between successive state-action distributions", "In this paper, we develop a policy search algorithm with policy updates that are both robust and non-parametric"]]
+[7, 1, []]
+[6, 2, []]
+[7, 1, ["Learning complex control policies from non-linear and redundant sensory input is an important challenge for reinforcement learning algorithms", "Our method can learn non- parametric control policies for infinite horizon continuous Markov decision processes with non-linear and redundant sensory representations", "In our experiments, we show the strong performance of the proposed method, and how it can be approximated efficiently"]]
+[6, 2, []]
+[3, 2, []]
+[6, 2, []]

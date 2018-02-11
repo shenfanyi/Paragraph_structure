@@ -1,0 +1,25 @@
+We present new methodology based on Multi-Objective Markov
+Decision Processes for developing sequential decision support
+systems from data. Our approach uses sequential decision-making
+data to provide support that is useful to many different
+decision-makers, each with different, potentially time-varying
+preference. To accomplish this, we develop an extension of
+fitted-$Q$ iteration for multiple objectives that computes
+policies for all scalarization functions, i.e. preference
+functions, simultaneously from continuous-state, finite-horizon
+data. We identify and address several conceptual and
+computational challenges along the way, and we introduce a new
+solution concept that is appropriate when different actions have
+similar expected outcomes. Finally, we demonstrate an
+application of our method using data from the Clinical
+Antipsychotic Trials of Intervention Effectiveness and show that
+our approach offers decision-makers increased choice by a larger
+class of optimal policies.
+
+[5, 2, []]
+[8, 2, []]
+[6, 1, []]
+[0, 2, []]
+[6, 1, []]
+[6, 1, ["We identify and address several conceptual and computational challenges along the way, and we introduce a new solution concept that is appropriate when different actions have similar expected outcomes"]]
+[9, 1, ["We present new methodology based on Multi-Objective Markov Decision Processes for developing sequential decision support systems from data", "Our approach uses sequential decision-making data to provide support that is useful to many different decision-makers, each with different, potentially time-varying preference", "To accomplish this, we develop an extension of fitted-$Q$ iteration for multiple objectives that computes policies for all scalarization functions, i", "preference functions, simultaneously from continuous-state, finite-horizon data", "Finally, we demonstrate an application of our method using data from the Clinical Antipsychotic Trials of Intervention Effectiveness and show that our approach offers decision-makers increased choice by a larger class of optimal policies"]]

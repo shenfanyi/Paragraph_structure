@@ -1,0 +1,23 @@
+One of the most fundamental problems in causal inference is the
+estimation of a causal effect when treatment and outcome are
+confounded. This is difficult in an observational study, because
+one has no direct evidence that all confounders have been
+adjusted for. We introduce a novel approach for estimating
+causal effects that exploits observational conditional
+independencies to suggest “weak” paths in an unknown causal
+graph. The widely used faithfulness condition of Spirtes et al.
+is relaxed to allow for varying degrees of “path cancellations”
+that imply conditional independencies but do not rule out the
+existence of confounding causal paths. The output is a posterior
+distribution over bounds on the average causal effect via a
+linear programming approach and Bayesian inference. We claim
+this approach should be used in regular practice as a complement
+to other tools in observational studies.
+
+[6, 2, []]
+[3, 1, ["This is difficult in an observational study, because one has no direct evidence that all confounders have been adjusted for"]]
+[6, 2, []]
+[2, 2, []]
+[7, 1, []]
+[7, 1, ["One of the most fundamental problems in causal inference is the estimation of a causal effect when treatment and outcome are confounded", "We introduce a novel approach for estimating causal effects that exploits observational conditional independencies to suggest \u201cweak\u201d paths in an unknown causal graph", "The output is a posterior distribution over bounds on the average causal effect via a linear programming approach and Bayesian inference", "We claim this approach should be used in regular practice as a complement to other tools in observational studies"]]
+[5, 2, []]

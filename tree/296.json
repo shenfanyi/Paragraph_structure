@@ -1,0 +1,27 @@
+Probabilistic planners have improved recently to the point that
+they can solve difficult tasks with complex and expressive
+models. In contrast, learners cannot tackle yet the expressive
+models that planners do, which forces complex models to be
+mostly handcrafted. We propose a new learning approach that can
+learn relational probabilistic models with both action effects
+and exogenous effects. The proposed learning approach combines a
+multi-valued variant of inductive logic programming for the
+generation of candidate models, with an optimization method to
+select the best set of planning operators to model a problem. We
+also show how to combine this learner with reinforcement
+learning algorithms to solve complete problems. Finally,
+experimental validation is provided that shows improvements over
+previous work in both simulation and a robotic task. The robotic
+task involves a dynamic scenario with several agents where a
+manipulator robot has to clear the tableware on a table. We show
+that the exogenous effects learned by our approach allowed the
+robot to clear the table in a more efficient way.
+
+[4, 2, []]
+[5, 2, []]
+[6, 2, []]
+[14, 1, ["Probabilistic planners have improved recently to the point that they can solve difficult tasks with complex and expressive models", "In contrast, learners cannot tackle yet the expressive models that planners do, which forces complex models to be mostly handcrafted", "We propose a new learning approach that can learn relational probabilistic models with both action effects and exogenous effects", "The proposed learning approach combines a multi-valued variant of inductive logic programming for the generation of candidate models, with an optimization method to select the best set of planning operators to model a problem", "We show that the exogenous effects learned by our approach allowed the robot to clear the table in a more efficient way"]]
+[4, 2, []]
+[5, 2, []]
+[7, 1, ["Finally, experimental validation is provided that shows improvements over previous work in both simulation and a robotic task", "The robotic task involves a dynamic scenario with several agents where a manipulator robot has to clear the tableware on a table"]]
+[5, 2, []]

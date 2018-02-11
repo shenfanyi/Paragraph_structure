@@ -1,0 +1,36 @@
+A typical viral marketing model identifies influential users in
+a social network to maximize a single product adoption assuming
+unlimited user attention, campaign budgets, and time. In
+reality, multiple products need campaigns, users have limited
+attention, convincing users incurs costs, and advertisers have
+limited budgets and expect the adoptions to be maximized soon.
+Facing these user, monetary, and timing constraints, we
+formulate the problem as a submodular maximization task in a
+continuous-time diffusion model under the intersection of one
+matroid and multiple knapsack constraints. We propose a
+randomized algorithm estimating the user influence (Partial
+results in the paper on influence estimation have been published
+in a conference paper: Nan Du, Le Song, Manuel Gomez-Rodriguez,
+and Hongyuan Zha. Scalable influence estimation in continuous
+time diffusion networks. In Advances in Neural Information
+Processing Systems 26, 2013.) in a network ($|\mathcal{V}|$
+nodes, $|\mathcal{E}|$ edges) to an accuracy of $\epsilon$ with
+$n=\mathcal{O}(1/\epsilon^2)$ randomizations and
+$\tilde{\mathcal{O}}(n|\mathcal{E}|+n|\mathcal{V}|)$
+computations. By exploiting the influence estimation algorithm
+as a subroutine, we develop an adaptive threshold greedy
+algorithm achieving an approximation factor $k_a/(2+2 k)$ of the
+optimal when $k_a$ out of the $k$ knapsack constraints are
+active. Extensive experiments on networks of millions of nodes
+demonstrate that the proposed algorithms achieve the state-of-
+the-art in terms of effectiveness and scalability.
+
+[12, 1, []]
+[10, 1, []]
+[12, 1, ["A typical viral marketing model identifies influential users in a social network to maximize a single product adoption assuming unlimited user attention, campaign budgets, and time"]]
+[9, 2, []]
+[5, 2, []]
+[1, 2, []]
+[8, 2, []]
+[14, 1, ["Facing these user, monetary, and timing constraints, we formulate the problem as a submodular maximization task in a continuous-time diffusion model under the intersection of one matroid and multiple knapsack constraints", "We propose a randomized algorithm estimating the user influence (Partial results in the paper on influence estimation have been published in a conference paper: Nan Du, Le Song, Manuel Gomez-Rodriguez, and Hongyuan Zha", "Scalable influence estimation in continuous time diffusion networks", "By exploiting the influence estimation algorithm as a subroutine, we develop an adaptive threshold greedy algorithm achieving an approximation factor $k_a/(2+2 k)$ of the optimal when $k_a$ out of the $k$ knapsack constraints are active"]]
+[10, 1, [") in a network ($|\\mathcal{V}|$ nodes, $|\\mathcal{E}|$ edges) to an accuracy of $\\epsilon$ with $n=\\mathcal{O}(1/\\epsilon^2)$ randomizations and $\\tilde{\\mathcal{O}}(n|\\mathcal{E}|+n|\\mathcal{V}|)$ computations", "Extensive experiments on networks of millions of nodes demonstrate that the proposed algorithms achieve the state-of- the-art in terms of effectiveness and scalability"]]

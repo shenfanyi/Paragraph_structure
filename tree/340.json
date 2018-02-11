@@ -1,0 +1,26 @@
+We study the round complexity of minimizing the average of
+convex functions under a new setting of distributed optimization
+where each machine can receive two subsets of functions. The
+first subset is from a random partition and the second subset is
+randomly sampled with replacement. Under this setting, we define
+a broad class of distributed algorithms whose local computation
+can utilize both subsets and design a distributed stochastic
+variance reduced gradient method belonging to in this class.
+When the condition number of the problem is small, our method
+achieves the optimal parallel runtime, amount of communication
+and rounds of communication among all distributed first-order
+methods up to constant factors. When the condition number is
+relatively large, a lower bound is provided for the number of
+rounds of communication needed by any algorithm in this class.
+Then, we present an accelerated version of our method whose the
+rounds of communication matches the lower bound up to
+logarithmic terms, which establishes that this accelerated
+algorithm has the lowest round complexity among all algorithms
+in our class under this new setting.
+
+[8, 1, ["We study the round complexity of minimizing the average of convex functions under a new setting of distributed optimization where each machine can receive two subsets of functions"]]
+[4, 2, []]
+[9, 2, []]
+[12, 1, ["Under this setting, we define a broad class of distributed algorithms whose local computation can utilize both subsets and design a distributed stochastic variance reduced gradient method belonging to in this class", "When the condition number of the problem is small, our method achieves the optimal parallel runtime, amount of communication and rounds of communication among all distributed first-order methods up to constant factors", "When the condition number is relatively large, a lower bound is provided for the number of rounds of communication needed by any algorithm in this class", "Then, we present an accelerated version of our method whose the rounds of communication matches the lower bound up to logarithmic terms, which establishes that this accelerated algorithm has the lowest round complexity among all algorithms in our class under this new setting"]]
+[7, 2, []]
+[10, 2, []]

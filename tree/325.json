@@ -1,0 +1,21 @@
+Dictionaries are collections of vectors used for the
+representation of a class of vectors in Euclidean spaces. Recent
+research on optimal dictionaries is focused on constructing
+dictionaries that offer sparse representations, i.e.,
+$\ell_0$-optimal representations. Here we consider the problem
+of finding optimal dictionaries with which representations of a
+given class of vectors is optimal in an $\ell_2$-sense:
+optimality of representation is defined as attaining the minimal
+average $\ell_2$-norm of the coefficients used to represent the
+vectors in the given class. With the help of recent results on
+rank-1 decompositions of symmetric positive semidefinite
+matrices, we provide an explicit description of $\ell_2$-optimal
+dictionaries as well as their algorithmic constructions in
+polynomial time.
+
+[7, 2, []]
+[4, 2, []]
+[0, 2, []]
+[1, 2, []]
+[12, 1, ["Dictionaries are collections of vectors used for the representation of a class of vectors in Euclidean spaces", "Recent research on optimal dictionaries is focused on constructing dictionaries that offer sparse representations, i", ", $\\ell_0$-optimal representations", "Here we consider the problem of finding optimal dictionaries with which representations of a given class of vectors is optimal in an $\\ell_2$-sense: optimality of representation is defined as attaining the minimal average $\\ell_2$-norm of the coefficients used to represent the vectors in the given class", "With the help of recent results on rank-1 decompositions of symmetric positive semidefinite matrices, we provide an explicit description of $\\ell_2$-optimal dictionaries as well as their algorithmic constructions in polynomial time"]]
+[9, 2, []]

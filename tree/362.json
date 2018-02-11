@@ -1,0 +1,26 @@
+Sparsity is an important modeling tool that expands the
+applicability of convex formulations for data analysis, however
+it also creates significant challenges for efficient algorithm
+design. In this paper we investigate the generalized conditional
+gradient (GCG) algorithm for solving sparse optimization
+problems--- demonstrating that, with some enhancements, it can
+provide a more efficient alternative to current state of the art
+approaches. After studying the convergence properties of GCG for
+general convex composite problems, we develop efficient methods
+for evaluating polar operators, a subroutine that is required in
+each GCG iteration. In particular, we show how the polar
+operator can be efficiently evaluated in learning low-rank
+matrices, instantiated with detailed examples on matrix
+completion and dictionary learning. A further improvement is
+achieved by interleaving GCG with fixed-rank local subspace
+optimization. A series of experiments on matrix completion,
+multi-class classification, and multi-view dictionary learning
+shows that the proposed method can significantly reduce the
+training cost of current alternatives.
+
+[11, 1, []]
+[11, 1, ["Sparsity is an important modeling tool that expands the applicability of convex formulations for data analysis, however it also creates significant challenges for efficient algorithm design", "In this paper we investigate the generalized conditional gradient (GCG) algorithm for solving sparse optimization problems--- demonstrating that, with some enhancements, it can provide a more efficient alternative to current state of the art approaches", "A further improvement is achieved by interleaving GCG with fixed-rank local subspace optimization"]]
+[8, 2, []]
+[8, 2, []]
+[4, 2, []]
+[13, 1, ["In particular, we show how the polar operator can be efficiently evaluated in learning low-rank matrices, instantiated with detailed examples on matrix completion and dictionary learning", "A series of experiments on matrix completion, multi-class classification, and multi-view dictionary learning shows that the proposed method can significantly reduce the training cost of current alternatives"]]

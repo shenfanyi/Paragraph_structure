@@ -1,0 +1,11 @@
+Control of non-episodic, finite-horizon dynamical systems with
+uncertain dynamics poses a tough and elementary case of the
+exploration-exploitation trade-off. Bayesian reinforcement
+learning, reasoning about the effect of actions and future
+observations, offers a principled solution, but is intractable.
+We review, then extend an old approximate approach from control
+theory---where the problem is known as 
+
+[10, 1, ["Control of non-episodic, finite-horizon dynamical systems with uncertain dynamics poses a tough and elementary case of the exploration-exploitation trade-off"]]
+[6, 1, ["Bayesian reinforcement learning, reasoning about the effect of actions and future observations, offers a principled solution, but is intractable"]]
+[4, 2, []]

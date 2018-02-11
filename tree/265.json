@@ -1,0 +1,35 @@
+Markov chain Monte Carlo methods are often deemed too
+computationally intensive to be of any practical use for big
+data applications, and in particular for inference on datasets
+containing a large number $n$ of individual data points, also
+known as tall datasets. In scenarios where data are assumed
+independent, various approaches to scale up the Metropolis-
+Hastings algorithm in a Bayesian inference context have been
+recently proposed in machine learning and computational
+statistics. These approaches can be grouped into two categories:
+divide-and-conquer approaches and, subsampling-based algorithms.
+The aims of this article are as follows. First, we present a
+comprehensive review of the existing literature, commenting on
+the underlying assumptions and theoretical guarantees of each
+method. Second, by leveraging our understanding of these
+limitations, we propose an original subsampling-based approach
+relying on a control variate method which samples under
+regularity conditions from a distribution provably close to the
+posterior distribution of interest, yet can require less than
+$O(n)$ data point likelihood evaluations at each iteration for
+certain statistical models in favourable scenarios. Finally, we
+emphasize that we have only been able so far to propose
+subsampling-based methods which display good performance in
+scenarios where the Bernstein-von Mises approximation of the
+target posterior distribution is excellent. It remains an open
+challenge to develop such methods in scenarios where the
+Bernstein-von Mises approximation is poor.
+
+[12, 2, []]
+[9, 2, []]
+[5, 1, []]
+[2, 2, []]
+[5, 1, []]
+[21, 1, ["Markov chain Monte Carlo methods are often deemed too computationally intensive to be of any practical use for big data applications, and in particular for inference on datasets containing a large number $n$ of individual data points, also known as tall datasets", "In scenarios where data are assumed independent, various approaches to scale up the Metropolis- Hastings algorithm in a Bayesian inference context have been recently proposed in machine learning and computational statistics", "First, we present a comprehensive review of the existing literature, commenting on the underlying assumptions and theoretical guarantees of each method", "Second, by leveraging our understanding of these limitations, we propose an original subsampling-based approach relying on a control variate method which samples under regularity conditions from a distribution provably close to the posterior distribution of interest, yet can require less than $O(n)$ data point likelihood evaluations at each iteration for certain statistical models in favourable scenarios", "Finally, we emphasize that we have only been able so far to propose subsampling-based methods which display good performance in scenarios where the Bernstein-von Mises approximation of the target posterior distribution is excellent", "It remains an open challenge to develop such methods in scenarios where the Bernstein-von Mises approximation is poor"]]
+[7, 2, []]
+[4, 2, []]

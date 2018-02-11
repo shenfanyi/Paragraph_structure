@@ -1,0 +1,20 @@
+In this work, we address the problem of solving a series of
+underdetermined linear inverse problemblems subject to a
+sparsity constraint. We generalize the spike-and-slab prior
+distribution to encode a priori correlation of the support of
+the solution in both space and time by imposing a transformed
+Gaussian process on the spike-and-slab probabilities. An
+expectation propagation (EP) algorithm for posterior inference
+under the proposed model is derived. For large scale problems,
+the standard EP algorithm can be prohibitively slow. We
+therefore introduce three different approximation schemes to
+reduce the computational complexity. Finally, we demonstrate the
+proposed model using numerical experiments based on both
+synthetic and real data sets.
+
+[7, 1, ["In this work, we address the problem of solving a series of underdetermined linear inverse problemblems subject to a sparsity constraint"]]
+[10, 1, ["We generalize the spike-and-slab prior distribution to encode a priori correlation of the support of the solution in both space and time by imposing a transformed Gaussian process on the spike-and-slab probabilities"]]
+[6, 1, ["An expectation propagation (EP) algorithm for posterior inference under the proposed model is derived", "For large scale problems, the standard EP algorithm can be prohibitively slow", "Finally, we demonstrate the proposed model using numerical experiments based on both synthetic and real data sets"]]
+[3, 2, []]
+[3, 2, []]
+[4, 2, []]

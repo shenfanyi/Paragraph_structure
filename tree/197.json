@@ -1,0 +1,21 @@
+Rank aggregation based on pairwise comparisons over a set of
+items has a wide range of applications. Although considerable
+research has been devoted to the development of rank aggregation
+algorithms, one basic question is how to efficiently collect a
+large amount of high-quality pairwise comparisons for the
+ranking purpose. Because of the advent of many crowdsourcing
+services, a crowd of workers are often hired to conduct pairwise
+comparisons with a small monetary reward for each pair they
+compare. Since different workers have different levels of
+reliability and different pairs have different levels of
+ambiguity, it is desirable to wisely allocate the limited budget
+for comparisons among the pairs of items and workers so that the
+global ranking can be accurately inferred from the comparison
+results. To this end, we model the active sampling problem in
+
+
+[7, 2, []]
+[11, 2, []]
+[9, 2, []]
+[14, 1, ["Rank aggregation based on pairwise comparisons over a set of items has a wide range of applications", "Although considerable research has been devoted to the development of rank aggregation algorithms, one basic question is how to efficiently collect a large amount of high-quality pairwise comparisons for the ranking purpose", "Because of the advent of many crowdsourcing services, a crowd of workers are often hired to conduct pairwise comparisons with a small monetary reward for each pair they compare", "Since different workers have different levels of reliability and different pairs have different levels of ambiguity, it is desirable to wisely allocate the limited budget for comparisons among the pairs of items and workers so that the global ranking can be accurately inferred from the comparison results"]]
+[3, 2, []]

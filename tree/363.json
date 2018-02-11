@@ -1,0 +1,31 @@
+Follow the leader (FTL) is a simple online learning algorithm
+that is known to perform well when the loss functions are convex
+and positively curved. In this paper we ask whether there are
+other settings when FTL achieves low regret. In particular, we
+study the fundamental problem of linear prediction over a
+convex, compact domain with non-empty interior. Amongst other
+results, we prove that the curvature of the boundary of the
+domain can act as if the losses were curved: In this case, we
+prove that as long as the mean of the loss vectors have positive
+lengths bounded away from zero, FTL enjoys logarithmic regret,
+while for polytope domains and stochastic data it enjoys finite
+expected regret. The former result is also extended to strongly
+convex domains by establishing an equivalence between the strong
+convexity of sets and the minimum curvature of their boundary,
+which may be of independent interest. Building on a previously
+known meta-algorithm, we also get an algorithm that
+simultaneously enjoys the worst-case guarantees and the smaller
+regret of FTL when the data is `easy'. Finally, we show that
+such guarantees are achievable directly (e.g., by the follow the
+regularized leader algorithm or by a shrinkage-based variant of
+FTL) when the constraint set is an ellipsoid.
+
+[5, 2, []]
+[3, 2, []]
+[5, 2, []]
+[15, 1, ["Follow the leader (FTL) is a simple online learning algorithm that is known to perform well when the loss functions are convex and positively curved", "In this paper we ask whether there are other settings when FTL achieves low regret", "In particular, we study the fundamental problem of linear prediction over a convex, compact domain with non-empty interior", "Amongst other results, we prove that the curvature of the boundary of the domain can act as if the losses were curved: In this case, we prove that as long as the mean of the loss vectors have positive lengths bounded away from zero, FTL enjoys logarithmic regret, while for polytope domains and stochastic data it enjoys finite expected regret", "The former result is also extended to strongly convex domains by establishing an equivalence between the strong convexity of sets and the minimum curvature of their boundary, which may be of independent interest", "Building on a previously known meta-algorithm, we also get an algorithm that simultaneously enjoys the worst-case guarantees and the smaller regret of FTL when the data is `easy'"]]
+[8, 2, []]
+[6, 1, []]
+[1, 2, []]
+[0, 2, []]
+[6, 1, [", by the follow the regularized leader algorithm or by a shrinkage-based variant of FTL) when the constraint set is an ellipsoid"]]

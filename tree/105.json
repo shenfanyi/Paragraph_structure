@@ -1,0 +1,9 @@
+We develop a flexible framework for low-rank matrix estimation
+that allows us to transform noise models into regularization
+schemes via a simple bootstrap algorithm. Effectively, our
+procedure seeks an autoencoding basis for the observed matrix
+that is stable with respect to the specified noise model; we
+call the resulting procedure a 
+
+[9, 1, ["We develop a flexible framework for low-rank matrix estimation that allows us to transform noise models into regularization schemes via a simple bootstrap algorithm", "Effectively, our procedure seeks an autoencoding basis for the observed matrix that is stable with respect to the specified noise model; we call the resulting procedure a"]]
+[7, 2, []]

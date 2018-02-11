@@ -1,0 +1,15 @@
+Structured tasks are distinctive: each task has its own measure
+of performance, such as the word error rate in speech
+recognition, the BLEU score in machine translation, the NDCG
+score in information retrieval, or the intersection-over-union
+score in visual object segmentation. This paper presents
+StructED, a software package for learning structured prediction
+models with training methods that aimed at optimizing the task
+measure of performance. The package was written in Java and
+released under the MIT license. It can be downloaded from 
+
+
+[20, 1, ["Structured tasks are distinctive: each task has its own measure of performance, such as the word error rate in speech recognition, the BLEU score in machine translation, the NDCG score in information retrieval, or the intersection-over-union score in visual object segmentation", "This paper presents StructED, a software package for learning structured prediction models with training methods that aimed at optimizing the task measure of performance"]]
+[11, 2, []]
+[2, 1, ["The package was written in Java and released under the MIT license"]]
+[0, 2, []]

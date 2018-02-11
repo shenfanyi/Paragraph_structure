@@ -1,0 +1,20 @@
+We study the design of interactive clustering algorithms. The
+user supervision that we consider is in the form of cluster
+split/merge requests; such feedback is easy for users to provide
+because it only requires a high-level understanding of the
+clusters. Our algorithms start with any initial clustering and
+only make local changes in each step; both are desirable
+properties in many applications. Local changes are desirable
+because in practice edits of other parts of the clustering are
+considered churn - changes that are perceived as quality-neutral
+or quality-negative. We show that in this framework we can still
+design provably correct algorithms given that our data satisfies
+natural separability properties. We also show that our framework
+works well in practice.
+
+[2, 2, []]
+[10, 1, ["The user supervision that we consider is in the form of cluster split/merge requests; such feedback is easy for users to provide because it only requires a high-level understanding of the clusters"]]
+[6, 2, []]
+[9, 1, ["Our algorithms start with any initial clustering and only make local changes in each step; both are desirable properties in many applications", "Local changes are desirable because in practice edits of other parts of the clustering are considered churn - changes that are perceived as quality-neutral or quality-negative", "We also show that our framework works well in practice"]]
+[6, 2, []]
+[2, 2, []]

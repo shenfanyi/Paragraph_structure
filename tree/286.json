@@ -1,0 +1,42 @@
+In this paper, we show that the popular C-SVM, soft-margin
+support vector classifier is equivalent to minimization of
+Buffered Probability of Exceedance (bPOE), a recently introduced
+characterization of uncertainty. To show this, we introduce a
+new SVM formulation, called the EC-SVM, which is derived from a
+simple bPOE minimization problem that is easy to interpret with
+a meaningful free parameter, optimal objective value, and
+probabilistic derivation. Over the range of its free parameter,
+the EC-SVM has both a convex and non-convex case which we
+connect to existing SVM formulations. We first show that the
+C-SVM, formulated with any regularization norm, is equivalent to
+the convex EC-SVM. Similarly, we show that the E$\nu$-SVM is
+equivalent to the EC-SVM over its entire parameter range, which
+includes both the convex and non-convex case. These
+equivalences, coupled with the interpretability of the EC-SVM,
+allow us to gain surprising new insights into the C-SVM and
+fully connect soft margin support vector classification with
+superquantile and bPOE concepts. We also show that the EC-SVM
+can easily be cast as a robust optimization problem, where bPOE
+is minimized with data lying in a fixed uncertainty set. This
+reformulation allows us to clearly differentiate between the
+convex and non-convex case, with convexity associated with
+pessimistic views of uncertainty and non-convexity associated
+with optimistic views of uncertainty. Finally, we address some
+practical considerations. First, we show that these new insights
+can assist in making parameter selection more efficient. Second,
+we discuss optimization approaches for solving the EC-SVM.
+Third, we address the issue of generalization, providing
+generalization bounds for both bPOE and misclassification rate.
+
+[8, 2, []]
+[7, 1, []]
+[6, 2, []]
+[3, 2, []]
+[5, 2, []]
+[9, 1, ["These equivalences, coupled with the interpretability of the EC-SVM, allow us to gain surprising new insights into the C-SVM and fully connect soft margin support vector classification with superquantile and bPOE concepts", "First, we show that these new insights can assist in making parameter selection more efficient"]]
+[4, 2, []]
+[10, 1, ["In this paper, we show that the popular C-SVM, soft-margin support vector classifier is equivalent to minimization of Buffered Probability of Exceedance (bPOE), a recently introduced characterization of uncertainty", "Over the range of its free parameter, the EC-SVM has both a convex and non-convex case which we connect to existing SVM formulations", "We first show that the C-SVM, formulated with any regularization norm, is equivalent to the convex EC-SVM", "Similarly, we show that the E$\\nu$-SVM is equivalent to the EC-SVM over its entire parameter range, which includes both the convex and non-convex case", "We also show that the EC-SVM can easily be cast as a robust optimization problem, where bPOE is minimized with data lying in a fixed uncertainty set", "This reformulation allows us to clearly differentiate between the convex and non-convex case, with convexity associated with pessimistic views of uncertainty and non-convexity associated with optimistic views of uncertainty"]]
+[1, 2, []]
+[3, 2, []]
+[2, 2, []]
+[7, 1, ["To show this, we introduce a new SVM formulation, called the EC-SVM, which is derived from a simple bPOE minimization problem that is easy to interpret with a meaningful free parameter, optimal objective value, and probabilistic derivation", "Third, we address the issue of generalization, providing generalization bounds for both bPOE and misclassification rate"]]

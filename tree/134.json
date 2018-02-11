@@ -1,0 +1,16 @@
+We derive a second-order ordinary differential equation (ODE)
+which is the limit of Nesterov's accelerated gradient method.
+This ODE exhibits approximate equivalence to Nesterov's scheme
+and thus can serve as a tool for analysis. We show that the
+continuous time ODE allows for a better understanding of
+Nesterov's scheme. As a byproduct, we obtain a family of schemes
+with similar convergence rates. The ODE interpretation also
+suggests restarting Nesterov's scheme leading to an algorithm,
+which can be rigorously proven to converge at a linear rate
+whenever the objective is strongly convex.
+
+[5, 1, []]
+[4, 2, []]
+[3, 2, []]
+[5, 1, []]
+[5, 1, ["This ODE exhibits approximate equivalence to Nesterov's scheme and thus can serve as a tool for analysis", "We show that the continuous time ODE allows for a better understanding of Nesterov's scheme", "The ODE interpretation also suggests restarting Nesterov's scheme leading to an algorithm, which can be rigorously proven to converge at a linear rate whenever the objective is strongly convex"]]

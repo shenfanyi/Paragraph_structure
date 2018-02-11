@@ -1,0 +1,27 @@
+We present a general framework for graph clustering and bi-
+clustering where we are given a general observation (called a
+label) between each pair of nodes. This framework allows a rich
+encoding of various types of pairwise interactions between
+nodes. We propose a new tractable and robust approach to this
+problem based on convex optimization and maximum likelihood
+estimators. We analyze our algorithms under a general
+statistical model extending the planted partition and stochastic
+block models. Both sufficient and necessary conditions are
+provided for successful recovery of the underlying clusters. Our
+theoretical results subsume many existing graph clustering
+results for a wide range of settings, including planted
+partition, weighted clustering, submatrix localization and
+partially observed graphs. Furthermore, our results are
+applicable to novel settings including time-varying graphs,
+providing new insights to solutions of these problems. We
+provide empirical results on both synthetic and real data that
+corroborate with our theoretical findings.
+
+[7, 1, []]
+[6, 2, []]
+[7, 1, []]
+[5, 2, []]
+[3, 2, []]
+[12, 1, ["We present a general framework for graph clustering and bi- clustering where we are given a general observation (called a label) between each pair of nodes", "We analyze our algorithms under a general statistical model extending the planted partition and stochastic block models", "Our theoretical results subsume many existing graph clustering results for a wide range of settings, including planted partition, weighted clustering, submatrix localization and partially observed graphs", "Furthermore, our results are applicable to novel settings including time-varying graphs, providing new insights to solutions of these problems", "We provide empirical results on both synthetic and real data that corroborate with our theoretical findings"]]
+[7, 1, []]
+[3, 2, []]

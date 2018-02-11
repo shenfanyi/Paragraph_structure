@@ -1,0 +1,17 @@
+We consider two settings of online learning to rank where
+feedback is restricted to top ranked items. The problem is cast
+as an online game between a learner and sequence of users, over
+$T$ rounds. In both settings, the learners objective is to
+present ranked list of items to the users. The learner's
+performance is judged on the entire ranked list and true
+relevances of the items. However, the learner receives highly
+restricted feedback at end of each round, in form of relevances
+of only the top $k$ ranked items, where $k \ll m$. The first
+setting is 
+
+[4, 2, []]
+[6, 2, []]
+[6, 2, []]
+[5, 2, []]
+[9, 1, ["We consider two settings of online learning to rank where feedback is restricted to top ranked items", "The problem is cast as an online game between a learner and sequence of users, over $T$ rounds", "In both settings, the learners objective is to present ranked list of items to the users", "The learner's performance is judged on the entire ranked list and true relevances of the items", "However, the learner receives highly restricted feedback at end of each round, in form of relevances of only the top $k$ ranked items, where $k \\ll m$"]]
+[1, 2, []]

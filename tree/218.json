@@ -1,0 +1,29 @@
+The PAC-Bayesian approach is a powerful set of techniques to
+derive non-asymptotic risk bounds for random estimators. The
+corresponding optimal distribution of estimators, usually called
+the Gibbs posterior, is unfortunately often intractable. One may
+sample from it using Markov chain Monte Carlo, but this is
+usually too slow for big datasets. We consider instead
+variational approximations of the Gibbs posterior, which are
+fast to compute. We undertake a general study of the properties
+of such approximations. Our main finding is that such a
+variational approximation has often the same rate of convergence
+as the original PAC-Bayesian procedure it approximates. In
+addition, we show that, when the risk function is convex, a
+variational approximation can be obtained in polynomial time
+using a convex solver. We give finite sample oracle inequalities
+for the corresponding estimator. We specialize our results to
+several learning tasks (classification, ranking, matrix
+completion), discuss how to implement a variational
+approximation in each case, and illustrate the good properties
+of said approximation on real datasets.
+
+[5, 1, []]
+[3, 2, []]
+[2, 2, []]
+[2, 2, []]
+[3, 2, []]
+[5, 1, []]
+[8, 2, []]
+[4, 1, ["We give finite sample oracle inequalities for the corresponding estimator"]]
+[12, 1, ["One may sample from it using Markov chain Monte Carlo, but this is usually too slow for big datasets", "We undertake a general study of the properties of such approximations", "Our main finding is that such a variational approximation has often the same rate of convergence as the original PAC-Bayesian procedure it approximates", "In addition, we show that, when the risk function is convex, a variational approximation can be obtained in polynomial time using a convex solver", "We specialize our results to several learning tasks (classification, ranking, matrix completion), discuss how to implement a variational approximation in each case, and illustrate the good properties of said approximation on real datasets"]]
