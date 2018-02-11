@@ -1,4 +1,4 @@
-*.py
+/*.py
 *.git
 *.pyc
 /__pycache__/*
