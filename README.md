@@ -36,7 +36,7 @@ url.txt: all the crawled urls
 
 url_4.txt: the 4th kind of crawled urls, which are used for latter processing
 
-tree/*: each file includes the crawled abstract and its tree 
+tree/*: each file includes the crawled abstract and its tree (367 files in total)
 
 
 
