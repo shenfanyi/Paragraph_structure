@@ -29,9 +29,13 @@ Handling Process:
 Files:
 
 spides_abs.py: web crawling (1,urls 2,abstracts)
+
 para_tree.py: generate a tree structure for a paragraph
+
 url.txt: all the crawled urls
+
 url_4.txt: the 4th kind of crawled urls, which are used for latter processing
+
 tree/*: each file includes the crawled abstract and its tree 
 
 
